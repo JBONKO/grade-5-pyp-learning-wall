@@ -11,7 +11,7 @@ export const home = {
       "How Grade 5 students used a wall to track inquiry, evidence, action, and exhibition readiness.",
     intro:
       "This site documents one wall in a bilingual PYP classroom during the Grade 5 Exhibition. The wall was not a display. It was the place where students kept their questions, research, evidence, mentor notes, and next steps where everyone could see them — and change them.",
-    tag: "Evidence first. Experience second. Decoration last.",
+    tag: "Not a Display. A Record of Thinking.",
     image: "/images/hero-learning-wall.jpg",
   },
 
@@ -76,11 +76,6 @@ export const home = {
       title: "What Changed",
       blurb: "Honest course corrections — what did not work, and the fix.",
       href: "/what-changed",
-    },
-    {
-      title: "Resources",
-      blurb: "Routines and templates you can reuse in your own classroom.",
-      href: "/resources",
     },
   ],
 

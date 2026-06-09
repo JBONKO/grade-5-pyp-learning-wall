@@ -44,8 +44,8 @@ export default function ExhibitionPage() {
         );
       })}
 
-      <Section tone="paper">
-        <PullQuote>
+      <Section tone="dark">
+        <PullQuote light>
           A good poster helps visitors understand before you explain.
         </PullQuote>
       </Section>

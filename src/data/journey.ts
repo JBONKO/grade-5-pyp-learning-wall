@@ -43,8 +43,12 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "The first Question Triangle had too many categories. Students could not decide where a question went, so they stopped sorting. We cut it to three types and sorted the rest later.",
     gallery: [
-      { src: "/images/journey-wk12-a.jpg", caption: "Students adding questions to the first Question Triangle." },
-      { src: "/images/journey-wk12-b.jpg", caption: "The sorting activity that became the Research Unstuck Wall." },
+      { src: "/images/journey-wk12-a.jpg", caption: "The wall at the end of Week 1." },
+      { src: "/images/journey-wk12-c.jpg", caption: "A “don't know where to start” mind map from the first days." },
+      { src: "/images/journey-wk12-b.jpg", caption: "Students adding questions to the first Question Triangle." },
+      { src: "/images/journey-wk12-d.jpg", caption: "Building the research timeline that ran along the wall." },
+      { src: "/images/journey-wk12-f.jpg", caption: "Question starters for getting unstuck." },
+      { src: "/images/journey-wk12-e.jpg", caption: "Taking notes from a source — sketching to understand it." },
     ],
   },
   {
@@ -68,8 +72,12 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "LOIs were too abstract on the first try. Students wrote lines they could not research. We added sentence frames and worked examples, and most LOIs were rewritten at least once.",
     gallery: [
-      { src: "/images/journey-wk3-a.jpg", caption: "Group posters going up — central idea and lines of inquiry." },
-      { src: "/images/journey-wk3-b.jpg", caption: "A thinking routine used to turn topics into structure." },
+      { src: "/images/journey-wk3-a.jpg", caption: "The wall in Week 3: project maps linked with tape." },
+      { src: "/images/journey-wk3-b.jpg", caption: "The wall timeline at the start of Week 3." },
+      { src: "/images/journey-wk3-f.jpg", caption: "A poster with the central idea and lines of inquiry taking shape." },
+      { src: "/images/journey-wk3-e.jpg", caption: "A student working on a group poster." },
+      { src: "/images/journey-wk3-c.jpg", caption: "The Revolutions group's project map." },
+      { src: "/images/journey-wk3-d.jpg", caption: "Adding tape connections between evidence and lines of inquiry." },
     ],
   },
   {
@@ -93,10 +101,11 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "Some groups copied prompts and answers straight from MagicSchool into their notes without reading them. We added a step: rewrite findings in your own words in Cornell Notes.",
     gallery: [
-      { src: "/images/journey-wk4-a.jpg", caption: "The “What We Need to Find Out” routine that fed the gap table." },
+      { src: "/images/journey-wk4-a.jpg", caption: "The wall in Week 4 — project maps after Pull Up a Chair." },
+      { src: "/images/what-we-need-to-find-out.jpg", caption: "The “What We Need to Find Out” routine that fed the gap table." },
       { src: "/images/research-gap-table-2.jpg", caption: "The Research Gap Table the routine turned into." },
-      { src: "/images/what-are-we-learning-research.jpg", caption: "“What are we learning from our research?” — pulling findings together." },
       { src: "/images/journey-wk4-b.jpg", caption: "Survey and interview questions sorted on the triangle." },
+      { src: "/images/what-are-we-learning-research.jpg", caption: "“What are we learning from our research?” — pulling findings together." },
     ],
   },
   {
@@ -120,10 +129,11 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "Students wanted to start building before they had a plan. We made the rule: no plan = no paint. A group had to show a Project Map before getting materials.",
     gallery: [
-      { src: "/images/journey-wk5-a.jpg", caption: "Pull Up a Chair: a group talks through its Project Map." },
-      { src: "/images/journey-wk5-b.jpg", caption: "Action posters with speech-bubble feedback from other groups." },
+      { src: "/images/journey-wk5-a.jpg", caption: "The wall in Week 5, after Pull Up a Chair." },
+      { src: "/images/journey-wk5-b.jpg", caption: "The Question Triangle, updated in Week 5." },
       { src: "/images/station-design-zoom-1.jpg", caption: "A station design sketch, close up." },
       { src: "/images/station-design-zoom-2.jpg", caption: "Another group's station design sketch." },
+      { src: "/images/journey-wk5-c.jpg", caption: "A student sketching a station design." },
     ],
   },
   {
@@ -148,8 +158,10 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "Groups were treating their Canva slideshow as the display. We made it a checklist instead — no printing it, no iPad at the station just running the slides.",
     gallery: [
-      { src: "/images/journey-wk6-a.jpg", caption: "Painting a station sign during build week." },
-      { src: "/images/journey-wk6-b.jpg", caption: "The wall by build week, with station materials below it." },
+      { src: "/images/journey-wk6-a.jpg", caption: "The wall by build week, with station materials below it." },
+      { src: "/images/journey-wk6-b.jpg", caption: "Painting a cardboard station sign." },
+      { src: "/images/journey-wk6-d.jpg", caption: "Station design maps for all groups." },
+      { src: "/images/journey-wk6-c.jpg", caption: "A group's weekly poster: sustainable transportation." },
     ],
   },
   {

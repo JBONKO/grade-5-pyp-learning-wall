@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { PullQuote } from "@/components/PullQuote";
+import { ImagePlaceholder } from "@/components/ImagePlaceholder";
 import { why } from "@/data/why";
 
 export const metadata: Metadata = {
@@ -55,10 +56,24 @@ export default function WhyTheWallPage() {
       />
 
       <Section tone="cream">
-        <div className="max-w-2xl space-y-5 text-lg leading-relaxed text-ink/90">
-          {why.problem.map((p) => (
-            <p key={p}>{p}</p>
-          ))}
+        <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
+          <div className="space-y-5 text-lg leading-relaxed text-ink/90">
+            {why.problem.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+          <figure>
+            <div className="overflow-hidden rounded-2xl border border-line">
+              <ImagePlaceholder
+                src="/images/why-the-wall.jpg"
+                alt="The Grade 5 learning wall, full view"
+                ratio="4/3"
+              />
+            </div>
+            <figcaption className="mt-3 text-sm leading-relaxed text-muted">
+              One place the class could see, point at, and change.
+            </figcaption>
+          </figure>
         </div>
       </Section>
 
@@ -94,8 +109,8 @@ export default function WhyTheWallPage() {
         </div>
       </Section>
 
-      <Section tone="cream">
-        <PullQuote>The wall became a record of decisions.</PullQuote>
+      <Section tone="dark">
+        <PullQuote light>The wall became a record of decisions.</PullQuote>
       </Section>
     </>
   );

@@ -27,8 +27,8 @@ export default function WhatChangedPage() {
         </div>
       </Section>
 
-      <Section tone="paper">
-        <PullQuote>Feedback should lead to change.</PullQuote>
+      <Section tone="dark">
+        <PullQuote light>Feedback should lead to change.</PullQuote>
       </Section>
     </>
   );

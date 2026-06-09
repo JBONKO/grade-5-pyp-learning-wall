@@ -27,8 +27,8 @@ export default function ArtifactsPage() {
         </div>
       </Section>
 
-      <Section tone="paper">
-        <PullQuote>Evidence first. Experience second. Decoration last.</PullQuote>
+      <Section tone="dark">
+        <PullQuote light>Not a Display. A Record of Thinking.</PullQuote>
       </Section>
     </>
   );

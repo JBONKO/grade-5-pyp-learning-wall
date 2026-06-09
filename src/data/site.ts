@@ -23,7 +23,6 @@ export const nav: NavItem[] = [
   { label: "Group Actions", href: "/group-actions" },
   { label: "Exhibition", href: "/exhibition" },
   { label: "What Changed", href: "/what-changed" },
-  { label: "Resources", href: "/resources" },
 ];
 
 // A recurring idea, reused as a footer line / pull quote.
