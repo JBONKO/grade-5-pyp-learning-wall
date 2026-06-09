@@ -16,7 +16,7 @@ export default function ArtifactsPage() {
       <PageHeader
         eyebrow="Wall Artifacts"
         title="The systems on the wall"
-        intro="Fourteen artifacts students used, moved, and revised. These were not posters to admire — most of them only worked because students had to update them."
+        intro="The systems, routines, and pieces students made, used, and revised — on the wall and at the stations. Most only worked because students had to keep changing them."
       />
 
       <Section tone="cream">

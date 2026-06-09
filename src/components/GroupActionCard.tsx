@@ -17,13 +17,28 @@ export function GroupActionCard({
 
   return (
     <article className="flex flex-col overflow-hidden rounded-xl border border-line bg-paper">
-      {group.image ? (
-        <ImagePlaceholder
-          src={group.image}
-          alt={`${group.topic} — the group's project map or poster on the wall`}
-          ratio="4/3"
-        />
-      ) : null}
+      <div className="grid grid-cols-2 gap-px bg-line">
+        <figure className="bg-paper">
+          <ImagePlaceholder
+            src={group.image}
+            alt={`${group.topic} — project map`}
+            ratio="4/3"
+          />
+          <figcaption className="px-3 py-2 text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+            Project map
+          </figcaption>
+        </figure>
+        <figure className="bg-paper">
+          <ImagePlaceholder
+            src={group.actionImage}
+            alt={`${group.topic} — action poster with peer feedback`}
+            ratio="4/3"
+          />
+          <figcaption className="px-3 py-2 text-[10px] font-bold uppercase tracking-[0.12em] text-clay">
+            Action + peer feedback
+          </figcaption>
+        </figure>
+      </div>
       <div className={`h-1.5 w-full ${accent}`} aria-hidden="true" />
       <div className="flex flex-1 flex-col p-6">
         <h3 className="font-serif text-2xl leading-tight text-ink">{group.topic}</h3>

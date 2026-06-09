@@ -52,7 +52,6 @@ export default function ResearchPage() {
                 src={research.leadImage.src}
                 alt={research.leadImage.alt}
                 ratio="3/4"
-                fit="contain"
               />
             </div>
             <figcaption className="mt-3 text-center text-sm leading-relaxed text-muted">
@@ -82,7 +81,18 @@ export default function ResearchPage() {
             </p>
           </div>
 
-          <Figure image={research.coversImage} ratio="16/9" />
+          <div className="my-10 grid grid-cols-2 gap-6">
+            {research.covers.map((c) => (
+              <figure key={c.src} className="mx-auto w-full max-w-[200px]">
+                <div className="overflow-hidden rounded-xl border border-line">
+                  <ImagePlaceholder src={c.src} alt={c.alt} ratio="3/4" />
+                </div>
+                <figcaption className="mt-2 text-center text-sm leading-relaxed text-muted">
+                  {c.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
       </Section>
 

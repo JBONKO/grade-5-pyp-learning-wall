@@ -23,14 +23,12 @@ export function ImagePlaceholder({
   src,
   alt,
   ratio = "4/3",
-  fit = "cover",
   caption,
   className = "",
 }: {
   src?: string;
   alt: string;
   ratio?: Ratio;
-  fit?: "cover" | "contain"; // "contain" suits portrait shots like book covers
   caption?: string; // suggested subject, shown on the placeholder only
   className?: string;
 }) {
@@ -40,9 +38,7 @@ export function ImagePlaceholder({
 
   return (
     <figure
-      className={`relative w-full overflow-hidden ${ratioClass[ratio]} ${
-        fit === "contain" ? "bg-cream" : ""
-      } ${className}`}
+      className={`relative w-full overflow-hidden ${ratioClass[ratio]} bg-cream ${className}`}
     >
       {showImage ? (
         <img
@@ -50,9 +46,7 @@ export function ImagePlaceholder({
           alt={alt}
           loading="lazy"
           onError={() => setFailed(true)}
-          className={`h-full w-full ${
-            fit === "contain" ? "object-contain" : "object-cover"
-          }`}
+          className="h-full w-full object-contain"
         />
       ) : (
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 border border-dashed border-teal/30 bg-[repeating-linear-gradient(45deg,#EFE7D3_0px,#EFE7D3_11px,#F4EEE0_11px,#F4EEE0_22px)] p-4 text-center">

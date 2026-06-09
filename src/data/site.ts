@@ -4,8 +4,8 @@
 // ---------------------------------------------------------------------------
 
 export const site = {
-  title: "A Learning Wall That Worked",
-  shortTitle: "The Learning Wall",
+  title: "The Working Wall",
+  shortTitle: "The Working Wall",
   description:
     "How Grade 5 students used a wall to track inquiry, evidence, action, and exhibition readiness.",
   // Small context line used in the header/footer. Edit to match your school.
@@ -21,6 +21,7 @@ export const nav: NavItem[] = [
   { label: "Journey", href: "/journey" },
   { label: "Artifacts", href: "/artifacts" },
   { label: "Group Actions", href: "/group-actions" },
+  { label: "Exhibition", href: "/exhibition" },
   { label: "What Changed", href: "/what-changed" },
   { label: "Resources", href: "/resources" },
 ];

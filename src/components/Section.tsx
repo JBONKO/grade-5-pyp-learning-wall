@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { Container } from "./Container";
 
-type Tone = "cream" | "paper" | "tealSoft" | "teal" | "mustard";
+type Tone = "cream" | "paper" | "tealSoft" | "teal" | "mustard" | "dark";
 
 const toneClass: Record<Tone, string> = {
   cream: "", // page background (warm off-white) shows through
@@ -9,6 +9,7 @@ const toneClass: Record<Tone, string> = {
   tealSoft: "bg-teal/[0.05]",
   teal: "bg-teal text-cream",
   mustard: "bg-mustard/[0.14]",
+  dark: "bg-ink text-cream",
 };
 
 /** A vertical band of the page. Set `tone` to alternate the background. */

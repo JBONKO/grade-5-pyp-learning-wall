@@ -7,7 +7,7 @@ import { weeks } from "@/data/journey";
 
 export const metadata: Metadata = {
   title: "The Journey",
-  description: "Week-by-week documentation, from inquiry systems to exhibition readiness.",
+  description: "Week-by-week documentation, from inquiry systems to the final presentation.",
 };
 
 const timelineItems = weeks.map((w) => ({
@@ -21,8 +21,8 @@ export default function JourneyPage() {
     <>
       <PageHeader
         eyebrow="The Journey"
-        title="Seven weeks, week by week"
-        intro="Each week added one routine to the wall — seven in all, ending with the exhibition readiness check. Every week here keeps what worked next to what had to change."
+        title="Eight weeks, week by week"
+        intro="Eight weeks, from the first inquiry routines through the exhibition and the final presentation. Where something broke, the fix is written down next to it."
       />
 
       {/* Overview stepper */}

@@ -17,7 +17,7 @@ export type Week = {
   image: string;
   whyArtifactMattered: string;
   photoSlots: string[]; // suggested photos to take/add for this week
-  whatDidNotWork: string; // friction + the adjustment that was made
+  whatDidNotWork?: string; // friction + the adjustment that was made
   gallery?: { src: string; caption: string }[]; // real photos from this week
 };
 
@@ -93,7 +93,9 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "Some groups copied prompts and answers straight from MagicSchool into their notes without reading them. We added a step: rewrite findings in your own words in Cornell Notes.",
     gallery: [
-      { src: "/images/journey-wk4-a.jpg", caption: "A Research Gap Table up close — empty cells are the to-do list." },
+      { src: "/images/journey-wk4-a.jpg", caption: "The “What We Need to Find Out” routine that fed the gap table." },
+      { src: "/images/research-gap-table-2.jpg", caption: "The Research Gap Table the routine turned into." },
+      { src: "/images/what-are-we-learning-research.jpg", caption: "“What are we learning from our research?” — pulling findings together." },
       { src: "/images/journey-wk4-b.jpg", caption: "Survey and interview questions sorted on the triangle." },
     ],
   },
@@ -103,7 +105,7 @@ export const weeks: Week[] = [
     title: "Action and Station Design",
     timelineBlurb: "Picked an action; planned the station before building.",
     whatStudentsWorkedOn:
-      "Each group decided on an action and started designing a station for it. They used the Project Map to plan the station and the “What Are We Learning” poster to keep the message clear.",
+      "Each group decided on an action and started designing a station for it. They kept the Project Map current — central idea, lines of inquiry, evidence, questions, advice — and wrote a “What Are We Learning” poster to keep the message clear.",
     mainTeachingPoint:
       "The action is the point. The station has to make a visitor do or understand something.",
     artifactName: "Project Map",
@@ -120,6 +122,8 @@ export const weeks: Week[] = [
     gallery: [
       { src: "/images/journey-wk5-a.jpg", caption: "Pull Up a Chair: a group talks through its Project Map." },
       { src: "/images/journey-wk5-b.jpg", caption: "Action posters with speech-bubble feedback from other groups." },
+      { src: "/images/station-design-zoom-1.jpg", caption: "A station design sketch, close up." },
+      { src: "/images/station-design-zoom-2.jpg", caption: "Another group's station design sketch." },
     ],
   },
   {
@@ -142,7 +146,7 @@ export const weeks: Week[] = [
       "Speaking role card",
     ],
     whatDidNotWork:
-      "Canva slides were becoming the presentation. We reframed Canva as a checking tool, not the show: Canva was for checking. The station was for teaching.",
+      "Groups were treating their Canva slideshow as the display. We made it a checklist instead — no printing it, no iPad at the station just running the slides.",
     gallery: [
       { src: "/images/journey-wk6-a.jpg", caption: "Painting a station sign during build week." },
       { src: "/images/journey-wk6-b.jpg", caption: "The wall by build week, with station materials below it." },
@@ -168,5 +172,29 @@ export const weeks: Week[] = [
     ],
     whatDidNotWork:
       "Some posters still needed the presenter to explain them. We tested each poster by asking a student from another group to read it alone. If they did not get it, the poster changed.",
+  },
+  {
+    id: "week-8",
+    weekLabel: "Week 8",
+    title: "Presentation",
+    timelineBlurb: "Last design fixes, then practicing the talk.",
+    whatStudentsWorkedOn:
+      "The final week was for finishing last-minute station design and practicing the presentation. Groups ran their talks for each other and tightened them.",
+    mainTeachingPoint:
+      "Practice the talk, not just the station. We used AFOREST — alliteration, facts, opinions, rhetorical questions, emotive language, statistics, triplets — to make presentations persuasive.",
+    artifactName: "My Opening (presentation plan)",
+    image: "/images/my-opening.jpg",
+    whyArtifactMattered:
+      "“My Opening” planned the first thirty seconds — the hook. If the opening is flat, visitors drift, so the opening had to earn the rest of the talk.",
+    photoSlots: [
+      "A group practicing their presentation",
+      "Speaking-role cards",
+    ],
+    whatDidNotWork:
+      "Some students came to Week 8 underprepared, without a clear role. That did not work. We pulled them for one-on-one support to find each of them a job — a part of the talk, a station task — so they could actually help their group at the exhibition.",
+    gallery: [
+      { src: "/images/forms-of-expression-explained.jpg", caption: "A station's form of expression, explained by the group." },
+      { src: "/images/forms-of-expression-inside.jpg", caption: "Inside the clay model built for the mental-health station." },
+    ],
   },
 ];

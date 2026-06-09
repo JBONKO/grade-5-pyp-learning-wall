@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Hero } from "@/components/Hero";
 import { Section } from "@/components/Section";
+import { SectionHeading } from "@/components/SectionHeading";
 import { Timeline } from "@/components/Timeline";
-import { ArtifactCard } from "@/components/ArtifactCard";
 import { CardLink } from "@/components/CardLink";
 import { PullQuote } from "@/components/PullQuote";
 import { home } from "@/data/home";
@@ -16,6 +16,13 @@ const timelineItems = weeks.map((w) => ({
   blurb: w.timelineBlurb,
   href: `/journey#${w.id}`,
 }));
+
+// The dark "magazine" block: one big feature + a short list beside it.
+const bigArtifact =
+  featuredArtifacts.find((a) => a.id === "project-map") ?? featuredArtifacts[0];
+const listArtifacts = featuredArtifacts
+  .filter((a) => a.id !== bigArtifact.id)
+  .slice(0, 3);
 
 export default function HomePage() {
   return (
@@ -33,9 +40,7 @@ export default function HomePage() {
       <Section tone="cream">
         <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:gap-16">
           <div>
-            <h2 className="font-serif text-3xl text-ink sm:text-4xl">
-              {home.notDecoration.heading}
-            </h2>
+            <SectionHeading title={home.notDecoration.heading} />
             <div className="mt-5 space-y-4 text-[17px] leading-relaxed text-muted">
               {home.notDecoration.body.map((p) => (
                 <p key={p}>{p}</p>
@@ -48,62 +53,88 @@ export default function HomePage() {
         </div>
       </Section>
 
-      {/* Week 1–7 timeline */}
+      {/* Week-by-week timeline */}
       <Section tone="paper">
-        <div className="mb-10 max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">
-            Week 1 to Week 7
-          </p>
-          <h2 className="mt-2 font-serif text-3xl text-ink sm:text-4xl">
-            A short timeline of the Exhibition
-          </h2>
-          <p className="mt-4 text-[17px] leading-relaxed text-muted">
-            Each week the wall picked up a new routine. Tap a week to jump to the
-            full account.
-          </p>
-        </div>
+        <SectionHeading
+          eyebrow="Week 1 to Week 8"
+          title="A short timeline of the Exhibition"
+          intro="Each week the wall picked up a new routine. Tap a week to jump to the full account."
+          className="mb-10"
+        />
         <Timeline items={timelineItems} />
       </Section>
 
-      {/* Featured artifacts */}
-      <Section tone="cream">
+      {/* Featured artifacts — magazine block on a dark band */}
+      <Section tone="dark">
         <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
-          <div className="max-w-2xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">
-              On the wall
-            </p>
-            <h2 className="mt-2 font-serif text-3xl text-ink sm:text-4xl">
-              Featured artifacts
-            </h2>
-            <p className="mt-4 text-[17px] leading-relaxed text-muted">
-              A few of the systems students used and changed. The full set is on
-              the artifacts page.
-            </p>
-          </div>
+          <SectionHeading eyebrow="On the wall" title="Featured artifacts" light />
           <Link
             href="/artifacts"
-            className="text-sm font-semibold text-teal underline-offset-4 hover:underline"
+            className="text-sm font-bold uppercase tracking-[0.12em] text-mustard underline-offset-4 hover:underline"
           >
-            All 14 artifacts →
+            All artifacts &rarr;
           </Link>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredArtifacts.map((artifact) => (
-            <ArtifactCard key={artifact.id} artifact={artifact} />
-          ))}
+
+        <div className="grid gap-10 lg:grid-cols-[1fr_1.15fr] lg:gap-12">
+          {/* Story list */}
+          <ol className="divide-y divide-cream/10">
+            {listArtifacts.map((a) => (
+              <li key={a.id} className="py-5 first:pt-0 last:pb-0">
+                <Link href="/artifacts" className="group flex gap-4">
+                  <div className="h-20 w-28 shrink-0 overflow-hidden rounded bg-black/40">
+                    <img
+                      src={a.image}
+                      alt={a.title}
+                      loading="lazy"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                  <div>
+                    <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-mustard">
+                      Artifact
+                    </p>
+                    <h3 className="mt-1 font-serif text-lg leading-snug text-cream transition group-hover:text-mustard">
+                      {a.title}
+                    </h3>
+                    <p className="mt-1 line-clamp-2 text-sm leading-snug text-cream/55">
+                      {a.purpose}
+                    </p>
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ol>
+
+          {/* Big feature */}
+          <Link href="/artifacts" className="group block">
+            <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-black/40">
+              <img
+                src={bigArtifact.image}
+                alt={bigArtifact.title}
+                className="h-full w-full object-contain"
+              />
+            </div>
+            <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.14em] text-mustard">
+              Featured artifact
+            </p>
+            <h3 className="mt-1 font-serif text-2xl leading-tight text-cream transition group-hover:text-mustard sm:text-3xl">
+              {bigArtifact.title}
+            </h3>
+            <p className="mt-2 text-[15px] leading-relaxed text-cream/70">
+              {bigArtifact.purpose}
+            </p>
+          </Link>
         </div>
       </Section>
 
       {/* Three key shifts */}
       <Section tone="mustard">
-        <div className="mb-10 max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">
-            What the wall helped with
-          </p>
-          <h2 className="mt-2 font-serif text-3xl text-ink sm:text-4xl">
-            Three shifts
-          </h2>
-        </div>
+        <SectionHeading
+          eyebrow="What the wall helped with"
+          title="Three shifts"
+          className="mb-10"
+        />
         <div className="grid gap-6 md:grid-cols-3">
           {home.shifts.map((shift) => (
             <div
@@ -126,14 +157,11 @@ export default function HomePage() {
 
       {/* Explore the documentation */}
       <Section tone="cream">
-        <div className="mb-10 max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">
-            Explore
-          </p>
-          <h2 className="mt-2 font-serif text-3xl text-ink sm:text-4xl">
-            The full documentation
-          </h2>
-        </div>
+        <SectionHeading
+          eyebrow="Explore"
+          title="The full documentation"
+          className="mb-10"
+        />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {home.pageCards.map((card) => (
             <CardLink

@@ -6,7 +6,7 @@
 export const home = {
   hero: {
     eyebrow: "Grade 5 PYP Exhibition · Shanghai",
-    title: "A Learning Wall That Worked",
+    title: "The Working Wall",
     subtitle:
       "How Grade 5 students used a wall to track inquiry, evidence, action, and exhibition readiness.",
     intro:
@@ -59,12 +59,12 @@ export const home = {
     },
     {
       title: "The Journey",
-      blurb: "Week by week, from inquiry systems to exhibition readiness.",
+      blurb: "Week by week, from inquiry systems to the final presentation.",
       href: "/journey",
     },
     {
       title: "Wall Artifacts",
-      blurb: "The fourteen systems and routines that lived on the wall.",
+      blurb: "The systems and routines that lived on the wall and at the stations.",
       href: "/artifacts",
     },
     {

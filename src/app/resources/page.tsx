@@ -52,11 +52,6 @@ export default function ResourcesPage() {
             </article>
           ))}
         </div>
-
-        <p className="mt-8 max-w-2xl text-sm leading-relaxed text-muted">
-          Tip: keep these as one-page PDFs. The point of each is to be printed,
-          stuck on the wall, and written on — not read on a screen.
-        </p>
       </Section>
     </>
   );

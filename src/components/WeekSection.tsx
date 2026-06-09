@@ -15,12 +15,17 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
         <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
           {/* Text column */}
           <div className={even ? "lg:order-1" : "lg:order-2"}>
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-clay">
-              {week.weekLabel}
-            </p>
-            <h2 className="mt-2 font-serif text-3xl leading-tight text-ink sm:text-4xl">
-              {week.title}
-            </h2>
+            <div className="flex gap-4">
+              <span aria-hidden="true" className="w-1.5 shrink-0 self-stretch bg-mustard" />
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-clay">
+                  {week.weekLabel}
+                </p>
+                <h2 className="mt-1 font-serif text-3xl leading-tight text-ink sm:text-4xl">
+                  {week.title}
+                </h2>
+              </div>
+            </div>
 
             <p className="mt-5 text-[17px] leading-relaxed text-ink/90">
               {week.whatStudentsWorkedOn}
@@ -48,14 +53,16 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
             </div>
 
             {/* What did not work / adjustment */}
-            <div className="mt-6 rounded-lg border border-clay/25 bg-clay/[0.06] p-4">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
-                What didn&rsquo;t work / adjustment
-              </p>
-              <p className="mt-1 text-[15px] leading-relaxed text-ink/90">
-                {week.whatDidNotWork}
-              </p>
-            </div>
+            {week.whatDidNotWork ? (
+              <div className="mt-6 rounded-lg border border-clay/25 bg-clay/[0.06] p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
+                  What didn&rsquo;t work / adjustment
+                </p>
+                <p className="mt-1 text-[15px] leading-relaxed text-ink/90">
+                  {week.whatDidNotWork}
+                </p>
+              </div>
+            ) : null}
           </div>
 
           {/* Media column */}

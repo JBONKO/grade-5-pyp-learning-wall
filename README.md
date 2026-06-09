@@ -1,4 +1,4 @@
-# A Learning Wall That Worked
+# The Working Wall
 
 A clean, responsive documentation site for a Grade 5 PYP Exhibition learning
 wall. Built with **Next.js + TypeScript + Tailwind CSS**. No CMS, no database —
@@ -111,6 +111,10 @@ tailwind.config.ts      # the colour palette + fonts
 3. Pick the repo. Vercel detects Next.js automatically — just click **Deploy**.
    No settings to change.
 4. You get a live URL. Every time you push to GitHub, the site redeploys.
+5. **Custom domain** (e.g. `workingwalljohnbonko.com`): buy it from any registrar
+   or from Vercel (**Settings → Domains**), add it to the project, and follow the
+   DNS steps. `metadataBase` in `src/app/layout.tsx` is already set to this domain —
+   change it there if you pick a different one.
 
 Prefer the terminal? Install the CLI with `npm i -g vercel`, then run `vercel`
 from this folder and follow the prompts.

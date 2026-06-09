@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { GroupActionCard } from "@/components/GroupActionCard";
-import { PullQuote } from "@/components/PullQuote";
 import { groups } from "@/data/groups";
 
 export const metadata: Metadata = {
@@ -25,12 +24,6 @@ export default function GroupActionsPage() {
             <GroupActionCard key={group.id} group={group} index={index} />
           ))}
         </div>
-      </Section>
-
-      <Section tone="paper">
-        <PullQuote>
-          Canva was for checking. The station was for teaching.
-        </PullQuote>
       </Section>
     </>
   );

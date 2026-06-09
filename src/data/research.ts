@@ -42,20 +42,29 @@ export const research = {
   reggio:
     "The Reggio Emilia tradition — the environment as a third teacher — sits behind the whole project (Edwards, Gandini and Forman, 1998; Krechevsky et al., 2013). Reggio’s argument that physical space teaches alongside the adult was the reason I cared about wall design at all.",
 
-  coversImage: {
-    src: "/images/research-book-covers.jpg",
-    alt: "Covers of Making Thinking Visible and Embedded Formative Assessment",
-    caption: "Making Thinking Visible (2011) and Embedded Formative Assessment (2011).",
-  },
+  covers: [
+    {
+      src: "/images/making-thinking-visible.jpg",
+      alt: "Making Thinking Visible book cover",
+      caption: "Making Thinking Visible (2011).",
+    },
+    {
+      src: "/images/embedded-formative-assessment.jpg",
+      alt: "Embedded Formative Assessment book cover",
+      caption: "Embedded Formative Assessment (2011).",
+    },
+  ],
 
   // Full references. Verify details (publisher, edition) before publishing.
+  // Harvard (Cite Them Right) style. Titles are italicised by convention; kept
+  // as plain text here. Verify any details before publishing.
   references: [
-    "Vance, J. (2025). Evidence of Inquiry. [Publisher — verify.]",
-    "Vance, J. (2026). Evidence of Inquiry workshop. Shanghai, April 2026. [Professional development workshop.]",
-    "Ritchhart, R., Church, M. and Morrison, K. (2011). Making Thinking Visible: How to Promote Engagement, Understanding, and Independence for All Learners. San Francisco: Jossey-Bass.",
-    "Ritchhart, R. and Church, M. (2020). The Power of Making Thinking Visible: Practices to Engage and Empower All Learners. San Francisco: Jossey-Bass.",
-    "Wiliam, D. (2011). Embedded Formative Assessment. Bloomington, IN: Solution Tree Press.",
-    "Edwards, C., Gandini, L. and Forman, G. (eds.) (1998). The Hundred Languages of Children: The Reggio Emilia Approach — Advanced Reflections. 2nd ed. Greenwich, CT: Ablex Publishing.",
-    "Krechevsky, M., Mardell, B., Rivard, M. and Wilson, D. (2013). Visible Learners: Promoting Reggio-Inspired Approaches in All Schools. San Francisco: Jossey-Bass.",
+    "Vance, J. (2025) Evidence of Inquiry. Elevate Books EDU.",
+    "Vance, J. (2026) Evidence of Inquiry [professional development workshop]. Shanghai, April 2026.",
+    "Ritchhart, R., Church, M. and Morrison, K. (2011) Making Thinking Visible: How to Promote Engagement, Understanding, and Independence for All Learners. San Francisco: Jossey-Bass.",
+    "Ritchhart, R. and Church, M. (2020) The Power of Making Thinking Visible: Practices to Engage and Empower All Learners. San Francisco: Jossey-Bass.",
+    "Wiliam, D. (2011) Embedded Formative Assessment. Bloomington, IN: Solution Tree Press.",
+    "Edwards, C., Gandini, L. and Forman, G. (eds) (1998) The Hundred Languages of Children: The Reggio Emilia Approach — Advanced Reflections. 2nd edn. Greenwich, CT: Ablex Publishing.",
+    "Krechevsky, M., Mardell, B., Rivard, M. and Wilson, D. (2013) Visible Learners: Promoting Reggio-Inspired Approaches in All Schools. San Francisco: Jossey-Bass.",
   ],
 };

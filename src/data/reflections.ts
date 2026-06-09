@@ -27,8 +27,8 @@ export const reflections: Reflection[] = [
   },
   {
     id: "canva-checking-tool",
-    title: "Canva had to be reframed as a checking tool",
-    body: "Groups were pouring time into Canva slides and treating them as the Exhibition. We reframed it: Canva was for checking your message, not for teaching at the station. The station — what a visitor does and sees — was the presentation.",
+    title: "Canva was a checklist, not the display",
+    body: "Groups started treating their Canva slideshow as the display itself. So we set a rule: no printing it, and no iPad left at the station running only the slides. The slideshow was a checklist — every essential piece of information in one place — plus a way to hold each member accountable for their own tasks and keep the work moving between classes. The station was what visitors saw, not the slides.",
   },
   {
     id: "materials-routines",

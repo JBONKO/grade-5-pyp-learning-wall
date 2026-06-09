@@ -71,9 +71,9 @@ export const artifacts: Artifact[] = [
     id: "project-map",
     title: "Project Map",
     image: "/images/project-map.jpg",
-    purpose: "Plan the station: what it is, what a visitor does, and what evidence it shows.",
-    how: "Groups mapped the station before building. No map, no materials.",
-    why: "The map showed where the inquiry was going before anyone cut cardboard.",
+    purpose: "An A3 poster holding a group's central idea and lines of inquiry, with mentor advice, new questions, and new evidence added as they came in.",
+    how: "Groups pulled up a chair to the map every few days. The routine was fixed: add one sticky, move one sticky, take one away. They ran tape between stickies to show how a piece of evidence, a question, or a piece of advice connected back to a line of inquiry, the central idea, or the TDT poster.",
+    why: "Moving and connecting the stickies kept students accountable for what they actually knew. The map showed their conceptual understanding of the topic, not just a stack of facts.",
     featured: true,
   },
   {
@@ -86,11 +86,19 @@ export const artifacts: Artifact[] = [
     featured: true,
   },
   {
+    id: "what-we-need-to-find-out",
+    title: "What We Need to Find Out",
+    image: "/images/what-we-need-to-find-out.jpg",
+    purpose: "A thinking routine where each group listed everything they still did not know about their topic.",
+    how: "Groups wrote their open questions on a poster and kept adding as they read and talked. The list of unknowns grew before it shrank.",
+    why: "It made the gaps visible and fed straight into the Research Gap Table. You cannot fill a gap you have not named.",
+  },
+  {
     id: "research-gap-table",
     title: "Research Gap Table",
     image: "/images/research-gap-table.jpg",
     purpose: "Line up each line of inquiry against the evidence the group had and still needed.",
-    how: "Groups filled the table and used the empty cells as a to-do list for research.",
+    how: "Groups turned “What We Need to Find Out” into a table: each line of inquiry against the evidence they had and the evidence still missing. The empty cells were the to-do list.",
     why: "Research got a target. Students looked for what was missing, not just more.",
     featured: true,
   },
@@ -134,6 +142,14 @@ export const artifacts: Artifact[] = [
     purpose: "A shared list to decide whether a station is ready.",
     how: "Groups checked station, evidence, poster, and speaking roles against the list and fixed gaps.",
     why: "“Are we ready?” became a list instead of a feeling.",
+  },
+  {
+    id: "mentor-meeting-reflection",
+    title: "Mentor Meeting Reflection",
+    image: "/images/mentor-meeting-reflection.jpg",
+    purpose: "A short reflection a group wrote after each mentor meeting.",
+    how: "Groups noted the advice and named one thing they would change before the next meeting.",
+    why: "Advice only counts if it changes something. Writing it down made the change a commitment.",
   },
 ];
 

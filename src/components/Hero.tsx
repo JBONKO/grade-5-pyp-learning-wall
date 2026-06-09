@@ -60,9 +60,9 @@ export function Hero({
           <div className="overflow-hidden rounded-2xl border border-line shadow-[0_30px_60px_-40px_rgba(24,92,87,0.55)]">
             <ImagePlaceholder
               src={image}
-              alt="The Grade 5 learning wall, full view"
+              alt="The Grade 5 learning wall by build week, with station materials below it"
               ratio="4/3"
-              caption="Wide shot of the whole wall early in the Exhibition"
+              caption="The wall by build week"
             />
           </div>
           {/* small decorative accent */}
