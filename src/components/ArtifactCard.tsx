@@ -12,6 +12,7 @@ export function ArtifactCard({ artifact }: { artifact: Artifact }) {
         alt={artifact.title}
         ratio="4/3"
         caption={`Photo of the ${artifact.title} on the wall`}
+        zoomable
       />
       <div className="flex flex-1 flex-col p-5">
         <h3 className="font-serif text-xl text-ink">{artifact.title}</h3>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
+import { SectionHeading } from "@/components/SectionHeading";
 import { PullQuote } from "@/components/PullQuote";
 import { ImagePlaceholder } from "@/components/ImagePlaceholder";
 import { why } from "@/data/why";
@@ -74,6 +75,39 @@ export default function WhyTheWallPage() {
               One place the class could see, point at, and change.
             </figcaption>
           </figure>
+        </div>
+      </Section>
+
+      <Section tone="paper">
+        <div className="mx-auto max-w-3xl">
+          <SectionHeading
+            eyebrow={why.teachingTool.eyebrow}
+            title={why.teachingTool.heading}
+          />
+          <div className="mt-7">
+            <PullQuote attribution={why.teachingTool.quoteAttribution}>
+              {why.teachingTool.quote}
+            </PullQuote>
+          </div>
+          <div className="mt-7 space-y-5 text-lg leading-relaxed text-ink/90">
+            {why.teachingTool.paragraphs.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      <Section tone="cream">
+        <div className="mx-auto max-w-3xl">
+          <SectionHeading
+            eyebrow={why.access.eyebrow}
+            title={why.access.heading}
+          />
+          <div className="mt-7 space-y-5 text-lg leading-relaxed text-ink/90">
+            {why.access.paragraphs.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
         </div>
       </Section>
 

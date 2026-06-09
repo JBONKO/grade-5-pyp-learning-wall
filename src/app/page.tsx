@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { Timeline } from "@/components/Timeline";
 import { CardLink } from "@/components/CardLink";
 import { PullQuote } from "@/components/PullQuote";
+import { ZoomableImage } from "@/components/ZoomableImage";
 import { home } from "@/data/home";
 import { weeks } from "@/data/journey";
 import { featuredArtifacts } from "@/data/artifacts";
@@ -19,7 +20,8 @@ const timelineItems = weeks.map((w) => ({
 
 // The dark "magazine" block: one big feature + a short list beside it.
 const bigArtifact =
-  featuredArtifacts.find((a) => a.id === "project-map") ?? featuredArtifacts[0];
+  featuredArtifacts.find((a) => a.id === "sticky-note-connections") ??
+  featuredArtifacts[0];
 const listArtifacts = featuredArtifacts
   .filter((a) => a.id !== bigArtifact.id)
   .slice(0, 3);
@@ -80,51 +82,46 @@ export default function HomePage() {
           {/* Story list */}
           <ol className="divide-y divide-cream/10">
             {listArtifacts.map((a) => (
-              <li key={a.id} className="py-5 first:pt-0 last:pb-0">
-                <Link href="/artifacts" className="group flex gap-4">
-                  <div className="h-20 w-28 shrink-0 overflow-hidden rounded bg-black/40">
-                    <img
-                      src={a.image}
-                      alt={a.title}
-                      loading="lazy"
-                      className="h-full w-full object-contain"
-                    />
-                  </div>
-                  <div>
-                    <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-mustard">
-                      Artifact
-                    </p>
-                    <h3 className="mt-1 font-serif text-lg leading-snug text-cream transition group-hover:text-mustard">
-                      {a.title}
-                    </h3>
-                    <p className="mt-1 line-clamp-2 text-sm leading-snug text-cream/55">
-                      {a.purpose}
-                    </p>
-                  </div>
+              <li key={a.id} className="flex gap-4 py-5 first:pt-0 last:pb-0">
+                <ZoomableImage
+                  src={a.image}
+                  alt={a.title}
+                  frameClassName="h-20 w-28 shrink-0 overflow-hidden rounded bg-black/40"
+                />
+                <Link href="/artifacts" className="group">
+                  <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-mustard">
+                    Artifact
+                  </p>
+                  <h3 className="mt-1 font-serif text-lg leading-snug text-cream transition group-hover:text-mustard">
+                    {a.title}
+                  </h3>
+                  <p className="mt-1 line-clamp-2 text-sm leading-snug text-cream/55">
+                    {a.purpose}
+                  </p>
                 </Link>
               </li>
             ))}
           </ol>
 
           {/* Big feature */}
-          <Link href="/artifacts" className="group block">
-            <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-black/40">
-              <img
-                src={bigArtifact.image}
-                alt={bigArtifact.title}
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.14em] text-mustard">
-              Featured artifact
-            </p>
-            <h3 className="mt-1 font-serif text-2xl leading-tight text-cream transition group-hover:text-mustard sm:text-3xl">
-              {bigArtifact.title}
-            </h3>
-            <p className="mt-2 text-[15px] leading-relaxed text-cream/70">
-              {bigArtifact.purpose}
-            </p>
-          </Link>
+          <div>
+            <ZoomableImage
+              src={bigArtifact.image}
+              alt={bigArtifact.title}
+              frameClassName="aspect-[4/3] w-full overflow-hidden rounded-xl bg-black/40"
+            />
+            <Link href="/artifacts" className="group mt-4 block">
+              <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-mustard">
+                Featured artifact
+              </p>
+              <h3 className="mt-1 font-serif text-2xl leading-tight text-cream transition group-hover:text-mustard sm:text-3xl">
+                {bigArtifact.title}
+              </h3>
+              <p className="mt-2 text-[15px] leading-relaxed text-cream/70">
+                {bigArtifact.purpose}
+              </p>
+            </Link>
+          </div>
         </div>
       </Section>
 

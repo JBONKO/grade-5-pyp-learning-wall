@@ -55,16 +55,17 @@ export const research = {
     },
   ],
 
-  // Full references. Verify details (publisher, edition) before publishing.
-  // Harvard (Cite Them Right) style. Titles are italicised by convention; kept
-  // as plain text here. Verify any details before publishing.
+  // Full references. Harvard (Cite Them Right) style, listed alphabetically by
+  // author surname. Titles are italicised by convention; kept as plain text
+  // here. Verify any details before publishing.
   references: [
-    "Vance, J. (2025) Evidence of Inquiry. Elevate Books EDU.",
-    "Vance, J. (2026) Evidence of Inquiry [professional development workshop]. Shanghai, April 2026.",
-    "Ritchhart, R., Church, M. and Morrison, K. (2011) Making Thinking Visible: How to Promote Engagement, Understanding, and Independence for All Learners. San Francisco: Jossey-Bass.",
-    "Ritchhart, R. and Church, M. (2020) The Power of Making Thinking Visible: Practices to Engage and Empower All Learners. San Francisco: Jossey-Bass.",
-    "Wiliam, D. (2011) Embedded Formative Assessment. Bloomington, IN: Solution Tree Press.",
+    "CAST (2018) Universal Design for Learning Guidelines version 2.2. Wakefield, MA: CAST.",
     "Edwards, C., Gandini, L. and Forman, G. (eds) (1998) The Hundred Languages of Children: The Reggio Emilia Approach — Advanced Reflections. 2nd edn. Greenwich, CT: Ablex Publishing.",
     "Krechevsky, M., Mardell, B., Rivard, M. and Wilson, D. (2013) Visible Learners: Promoting Reggio-Inspired Approaches in All Schools. San Francisco: Jossey-Bass.",
+    "Ritchhart, R., Church, M. and Morrison, K. (2011) Making Thinking Visible: How to Promote Engagement, Understanding, and Independence for All Learners. San Francisco: Jossey-Bass.",
+    "Ritchhart, R. and Church, M. (2020) The Power of Making Thinking Visible: Practices to Engage and Empower All Learners. San Francisco: Jossey-Bass.",
+    "Vance, J. (2025) Evidence of Inquiry. Elevate Books EDU.",
+    "Vance, J. (2026) Evidence of Inquiry [professional development workshop]. Shanghai, April 2026.",
+    "Wiliam, D. (2011) Embedded Formative Assessment. Bloomington, IN: Solution Tree Press.",
   ],
 };

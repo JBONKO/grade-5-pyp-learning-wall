@@ -3,7 +3,6 @@ import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ImagePlaceholder } from "@/components/ImagePlaceholder";
-import { PullQuote } from "@/components/PullQuote";
 import { exhibitionIntro, exhibits } from "@/data/exhibition";
 
 export const metadata: Metadata = {
@@ -43,12 +42,6 @@ export default function ExhibitionPage() {
           </Section>
         );
       })}
-
-      <Section tone="dark">
-        <PullQuote light>
-          A good poster helps visitors understand before you explain.
-        </PullQuote>
-      </Section>
     </>
   );
 }

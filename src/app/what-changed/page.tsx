@@ -20,9 +20,13 @@ export default function WhatChangedPage() {
       />
 
       <Section tone="cream">
-        <div className="grid gap-6 lg:grid-cols-2">
-          {reflections.map((reflection) => (
-            <ReflectionBlock key={reflection.id} reflection={reflection} />
+        <div className="mx-auto max-w-3xl space-y-6">
+          {reflections.map((reflection, i) => (
+            <ReflectionBlock
+              key={reflection.id}
+              reflection={reflection}
+              index={i}
+            />
           ))}
         </div>
       </Section>

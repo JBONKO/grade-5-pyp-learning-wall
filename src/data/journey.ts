@@ -49,6 +49,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk12-d.jpg", caption: "Building the research timeline that ran along the wall." },
       { src: "/images/journey-wk12-f.jpg", caption: "Question starters for getting unstuck." },
       { src: "/images/journey-wk12-e.jpg", caption: "Taking notes from a source — sketching to understand it." },
+      { src: "/images/x-journal-cover-2.jpg", caption: "A student's X Journal cover, made in the first weeks." },
     ],
   },
   {

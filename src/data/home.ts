@@ -16,9 +16,9 @@ export const home = {
   },
 
   notDecoration: {
-    heading: "The wall was not decoration",
+    heading: "This wall showed work in progress",
     body: [
-      "Most display boards show finished work. This wall showed work in progress: half-formed questions, research that led nowhere, sticky notes that got moved three times.",
+      "Most display boards show finished work. This one showed work as it happened: half-formed questions, research that led nowhere, sticky notes that got moved three times.",
       "Students added to it, argued with it, and rewrote it every week. When their thinking changed, the wall changed.",
     ],
   },

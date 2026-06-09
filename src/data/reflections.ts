@@ -12,32 +12,32 @@ export type Reflection = {
 export const reflections: Reflection[] = [
   {
     id: "lois-scaffolding",
-    title: "LOIs needed more scaffolding",
-    body: "Students could name a topic but could not write a line of inquiry that led somewhere. The first LOIs were too abstract to research. We added sentence frames and worked examples, and most groups rewrote their lines at least once before they were usable on the wall.",
+    title: "The first lines of inquiry were too abstract to research",
+    body: "Students could name a topic but not write a line of inquiry that led anywhere. Sentence frames and a few worked examples fixed it. Most groups rewrote their lines at least once before they were any use on the wall.",
   },
   {
     id: "magicschool-copying",
-    title: "MagicSchool prompt copying slowed students down",
-    body: "Some students copied prompts and outputs from MagicSchool straight into their notes without reading them. The notes looked full but meant nothing. We added a step: rewrite findings in your own words in Cornell Notes. Slower, but the notes started to mean something.",
+    title: "Students copied AI prompts straight into their notes",
+    body: "Some pasted prompts and answers from MagicSchool into their notes without reading them. The notes looked full and meant nothing. So we added a step: rewrite every finding in your own words in Cornell Notes. Slower, but the notes started to mean something.",
   },
   {
     id: "project-map-examples",
-    title: "Students needed visual examples for project maps",
-    body: "Describing a Project Map in words was not enough. Groups did not know what “good” looked like. Once we posted finished example maps on the wall, the next round of maps improved.",
+    title: "Describing a good project map in words did nothing",
+    body: "Groups could not picture what “good” looked like from instructions. Once we posted two finished maps on the wall, the next round improved on its own.",
   },
   {
     id: "canva-checking-tool",
-    title: "Canva was a checklist, not the display",
-    body: "Groups started treating their Canva slideshow as the display itself. So we set a rule: no printing it, and no iPad left at the station running only the slides. The slideshow was a checklist — every essential piece of information in one place — plus a way to hold each member accountable for their own tasks and keep the work moving between classes. The station was what visitors saw, not the slides.",
+    title: "Groups treated their Canva slides as the display",
+    body: "So we set a rule: don't print it, and don't leave an iPad at the station running the slides. Canva was a checklist for tracking tasks and keeping work moving between classes. The station was what visitors saw, not the screen.",
   },
   {
     id: "materials-routines",
-    title: "Materials routines had to be explicitly taught",
-    body: "Build week fell apart when materials were a free-for-all. Cardboard disappeared, tape ran out, tables were a mess. We taught the routine directly: where materials live, how to take and return them, and the rule that you plan before you build.",
+    title: "Build week fell apart when materials were a free-for-all",
+    body: "Cardboard vanished, tape ran out, tables were a mess. We taught the routine directly: where things live, how to take and return them, and the rule that you plan before you build.",
   },
   {
     id: "wall-needs-action",
-    title: "Wall artifacts worked best when students had to act on them",
-    body: "A poster that just hung there got ignored. The artifacts that worked were the ones students had to touch: move a sticky note, fill a gap in the table, check off a fix, rewrite an LOI. When the wall demanded an action, students used it.",
+    title: "A poster that just hung there got ignored",
+    body: "The artifacts that worked were the ones students had to touch — move a sticky, fill a gap in the table, check off a fix, rewrite a line. When the wall asked for an action, the kids used it.",
   },
 ];
