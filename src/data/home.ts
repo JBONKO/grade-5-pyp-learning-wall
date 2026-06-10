@@ -20,10 +20,9 @@ export const home = {
   notDecoration: {
     heading: "This wall showed work in progress",
     body: [
-      "Most classroom boards show the work after it has been cleaned up.",
-      "This wall showed the work while it was still moving.",
-      "There were first questions that were too broad. Research notes that did not answer the question. Sticky notes that moved from one section to another after a group discussion. A poster that looked finished on Monday and needed rewriting by Thursday.",
-      "Students added to the wall each week. They moved things, crossed things out, replaced questions, and used the wall to decide what needed to happen next.",
+      "Most display boards show finished work.",
+      "This wall showed the messy part: first questions, weak searches, research that did not answer the question, and sticky notes that moved more than once.",
+      "Students added to it each week. They changed questions, replaced notes, and used the wall to decide what came next.",
       "When their thinking changed, the wall changed.",
     ],
   },
