@@ -192,7 +192,7 @@ export const weeks: Week[] = [
     title: "Presentation",
     timelineBlurb: "Last design fixes, then practicing the talk.",
     whatStudentsWorkedOn:
-      "The final week was for finishing last-minute station design and practicing the presentation. Groups ran their talks for each other and tightened them.",
+      "The final week was for finishing station design and practicing the presentation. To write cue cards, groups pulled up a chair to their project maps and pulled the most important information off the wall. They also built timeline boards from their wall artifacts to take down to the presentation hall, showing their progress across the whole PYPx. That was the point of the week: the wall mattered, and everything students had made on it got used again when it counted.",
     mainTeachingPoint:
       "Practice the talk, not just the station. We used AFOREST — alliteration, facts, opinions, rhetorical questions, emotive language, statistics, triplets — to make presentations persuasive.",
     artifactName: "My Opening (presentation plan)",
@@ -201,13 +201,14 @@ export const weeks: Week[] = [
       "“My Opening” planned the first thirty seconds — the hook. If the opening is flat, visitors drift, so the opening had to earn the rest of the talk.",
     photoSlots: [
       "A group practicing their presentation",
+      "Timeline board built from wall artifacts, ready for the presentation hall",
       "Speaking-role cards",
     ],
     whatDidNotWork:
       "Some students came to Week 8 underprepared, without a clear role. That did not work. We pulled them for one-on-one support to find each of them a job — a part of the talk, a station task — so they could actually help their group at the exhibition.",
     gallery: [
-      { src: "/images/cue-card-creation.jpg", caption: "Drafting cue cards for the presentation." },
-      { src: "/images/cue-card-creation-2.jpg", caption: "Finished cue cards on top of the PYPx journal they came from." },
+      { src: "/images/cue-card-creation.jpg", caption: "Drafting cue cards. Groups pulled up a chair to their project maps and chose the information that mattered most." },
+      { src: "/images/cue-card-creation-2.jpg", caption: "Finished cue cards on top of the PYPx journal. The top information from the wall, ready for the talk." },
       { src: "/images/p4c-question-2.jpg", caption: "A station's P4C question, asked in both languages." },
       { src: "/images/p4c-question-3.jpg", caption: "Another station's P4C question — is it fair to control others' diet?" },
       { src: "/images/forms-of-expression-explained.jpg", caption: "A station's form of expression, explained by the group." },
