@@ -94,6 +94,18 @@ export default function WhyTheWallPage() {
               <p key={p}>{p}</p>
             ))}
           </div>
+          <figure className="mx-auto mt-10 max-w-[460px]">
+            <div className="overflow-hidden rounded-2xl border border-line">
+              <ImagePlaceholder
+                src={why.teachingTool.image.src}
+                alt={why.teachingTool.image.alt}
+                ratio="3/4"
+              />
+            </div>
+            <figcaption className="mt-3 text-sm leading-relaxed text-muted">
+              {why.teachingTool.image.caption}
+            </figcaption>
+          </figure>
         </div>
       </Section>
 
@@ -108,6 +120,18 @@ export default function WhyTheWallPage() {
               <p key={p}>{p}</p>
             ))}
           </div>
+          <figure className="mx-auto mt-10 max-w-[460px]">
+            <div className="overflow-hidden rounded-2xl border border-line">
+              <ImagePlaceholder
+                src={why.access.image.src}
+                alt={why.access.image.alt}
+                ratio="3/4"
+              />
+            </div>
+            <figcaption className="mt-3 text-sm leading-relaxed text-muted">
+              {why.access.image.caption}
+            </figcaption>
+          </figure>
         </div>
       </Section>
 

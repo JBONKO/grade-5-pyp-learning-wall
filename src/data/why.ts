@@ -25,6 +25,11 @@ export const why = {
       "Vance's first move is to find a blank space and set an intention for it (Vance, 2025). In week one I gave the class an empty wall and left it empty. The kids put the first questions up, not me. A wall the teacher fills is a display. A wall the kids fill is a place they come back to.",
       "So I taught into it. When a group's lines of inquiry were thin, we fixed them on the wall, in front of everyone, instead of in a private conference. The wall was where the lesson happened, not where it got filed afterward.",
     ],
+    image: {
+      src: "/images/why-the-wall-timeline-start.jpg",
+      alt: "Two students taping a long green timeline arrow across a mostly empty classroom wall",
+      caption: "Week one: taping the timeline onto an empty wall. The first marks on the wall were the students'.",
+    },
   },
 
   // Why the wall was an access tool, not just an organizing tool (UDL).
@@ -37,6 +42,11 @@ export const why = {
       "The same inquiry showed up four ways: a written line, a project map, a column in the gap table, and a wall of sticky notes. A kid who could not get through a dense paragraph could still read the map. And when it was time to show what they knew, a student who freezes on a worksheet could move a sticky, redraw a connection, or fill an empty cell in the table. The wall did not ask all 23 kids to prove themselves the same way.",
       "The Research Unstuck Wall ran the same logic on getting started, which is where a lot of kids stall. Before asking an adult, they had a set of moves to try first. Lowering the cost of starting is a UDL idea too. We never said the word UDL to a single ten-year-old. We just built the wall so more of them could get in and stay in.",
     ],
+    image: {
+      src: "/images/why-the-wall-first-poster.jpg",
+      alt: "A student taping an arrow on the wall beside his group's first research poster",
+      caption: "An arrow goes up beside a group's first poster. The wall was something students could reach and change.",
+    },
   },
 
   // What the wall actually solved.
