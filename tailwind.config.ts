@@ -3,35 +3,46 @@ import type { Config } from "tailwindcss";
 /**
  * Site colour palette and type live here.
  * Edit the hex values below to retune the whole site at once.
+ *
+ * Token names are historical (the site launched warm cream/teal/mustard) but
+ * now carry the clean navy + mint editorial palette:
+ *   cream   = near-white page background
+ *   paper   = white cards / panels
+ *   ink     = navy text
+ *   teal    = navy primary (buttons, dark bands)
+ *   mustard = mint accent (bars, rings, chips)
+ *   clay    = deep green-slate secondary accent (eyebrows, labels)
  */
 const config: Config = {
   content: ["./src/**/*.{ts,tsx,mdx}"],
   theme: {
     extend: {
       colors: {
-        cream: "#F6F1E6", // warm off-white page background
-        paper: "#FBF8F0", // slightly lighter card / panel background
-        ink: "#23211C", // soft black body text
-        muted: "#6F695B", // warm grey for secondary text
-        line: "#E4DCC9", // hairline borders
+        cream: "#F7FAFB", // near-white page background
+        paper: "#FFFFFF", // white card / panel background
+        ink: "#16243F", // navy body text
+        muted: "#5B6B83", // blue-grey secondary text
+        line: "#E3E9F0", // hairline borders
         teal: {
-          DEFAULT: "#185C57", // deep teal (primary)
-          dark: "#0F423E",
-          soft: "#2E726C",
+          DEFAULT: "#1C2E52", // navy (primary)
+          dark: "#111E38",
+          soft: "#33486F",
         },
         mustard: {
-          DEFAULT: "#D6A22B", // mustard yellow (accent)
-          soft: "#E4BE63",
+          DEFAULT: "#A7CCC1", // mint (accent)
+          soft: "#CBE2DA",
         },
         clay: {
-          DEFAULT: "#BC5A3C", // muted red / orange (accent)
-          soft: "#CE7A5F",
+          DEFAULT: "#47695F", // deep green-slate (secondary accent)
+          soft: "#7BA197",
         },
       },
       fontFamily: {
         // System stacks — no external font fetch, so local dev is instant and
         // works even where Google Fonts is slow/blocked (e.g. mainland China).
-        // To switch to a custom font later, see the note in README.md.
+        // `serif` intentionally maps to the same geometric sans stack: every
+        // heading on the site uses the font-serif utility, so this one line
+        // switches the whole site to bold sans headlines.
         sans: [
           "ui-sans-serif",
           "system-ui",
@@ -42,7 +53,16 @@ const config: Config = {
           "Arial",
           "sans-serif",
         ],
-        serif: ["Georgia", "ui-serif", "Cambria", "Times New Roman", "serif"],
+        serif: [
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
       },
       maxWidth: {
         content: "72rem",

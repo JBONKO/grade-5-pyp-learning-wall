@@ -15,6 +15,7 @@ export const home = {
     ],
     tag: "Not a display. A working space.",
     image: "/images/hero-learning-wall.jpg",
+    imageSecondary: "/images/about-wall-group.jpg",
   },
 
   notDecoration: {

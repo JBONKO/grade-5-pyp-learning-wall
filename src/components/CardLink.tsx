@@ -13,7 +13,7 @@ export function CardLink({
   return (
     <Link
       href={href}
-      className="group flex flex-col justify-between rounded-xl border border-line bg-paper p-6 transition hover:-translate-y-0.5 hover:border-teal/40 hover:shadow-[0_14px_34px_-22px_rgba(24,92,87,0.55)]"
+      className="group flex flex-col justify-between rounded-2xl border border-line bg-paper p-6 shadow-[0_10px_30px_-22px_rgba(22,36,63,0.25)] transition hover:-translate-y-0.5 hover:border-teal/40 hover:shadow-[0_18px_40px_-22px_rgba(22,36,63,0.35)]"
     >
       <div>
         <h3 className="font-serif text-xl text-ink">{title}</h3>

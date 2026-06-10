@@ -11,18 +11,24 @@ export function PageHeader({
   intro?: string;
 }) {
   return (
-    <header className="border-b border-line pt-14 pb-12 sm:pt-16 sm:pb-14">
+    <header className="border-b border-line bg-paper pb-12 pt-14 sm:pb-14 sm:pt-16">
       <Container>
-        <div className="flex gap-4 sm:gap-5">
-          <span aria-hidden="true" className="w-1.5 shrink-0 self-stretch bg-mustard" />
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-clay">
-              {eyebrow}
-            </p>
-            <h1 className="mt-2 max-w-3xl font-serif text-4xl leading-[1.08] text-ink sm:text-5xl">
-              {title}
-            </h1>
-          </div>
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-clay">
+          {eyebrow}
+        </p>
+        {/* Bracket-framed title */}
+        <div className="relative mt-4 inline-block pb-3 pl-5 pr-6 pt-4">
+          <span
+            aria-hidden="true"
+            className="absolute left-0 top-0 h-8 w-8 rounded-tl-md border-l-4 border-t-4 border-mustard"
+          />
+          <span
+            aria-hidden="true"
+            className="absolute bottom-0 right-0 h-8 w-8 rounded-br-md border-b-4 border-r-4 border-mustard"
+          />
+          <h1 className="max-w-3xl font-serif text-4xl leading-[1.08] text-ink sm:text-5xl">
+            {title}
+          </h1>
         </div>
         {intro ? (
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted">

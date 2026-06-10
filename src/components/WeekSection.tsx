@@ -108,7 +108,7 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
                       height="16"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#185C57"
+                      stroke="#1C2E52"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"

@@ -90,13 +90,13 @@ export function ImagePlaceholder({
           photo
         )
       ) : (
-        <div className="flex h-full w-full flex-col items-center justify-center gap-2 border border-dashed border-teal/30 bg-[repeating-linear-gradient(45deg,#EFE7D3_0px,#EFE7D3_11px,#F4EEE0_11px,#F4EEE0_22px)] p-4 text-center">
+        <div className="flex h-full w-full flex-col items-center justify-center gap-2 border border-dashed border-teal/30 bg-[repeating-linear-gradient(45deg,#EDF3F1_0px,#EDF3F1_11px,#F6FAF9_11px,#F6FAF9_22px)] p-4 text-center">
           <svg
             width="26"
             height="26"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="#185C57"
+            stroke="#1C2E52"
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"

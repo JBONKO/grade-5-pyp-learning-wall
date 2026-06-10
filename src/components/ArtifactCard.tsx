@@ -5,7 +5,7 @@ import { ImagePlaceholder } from "./ImagePlaceholder";
 /** A single wall artifact: photo on top, then purpose / how / why. */
 export function ArtifactCard({ artifact }: { artifact: Artifact }) {
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-line bg-paper transition hover:-translate-y-0.5 hover:shadow-[0_16px_38px_-24px_rgba(24,92,87,0.55)]">
+    <article className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-paper shadow-[0_10px_30px_-22px_rgba(22,36,63,0.25)] transition hover:-translate-y-0.5 hover:shadow-[0_18px_40px_-22px_rgba(22,36,63,0.35)]">
       {/* Replace by adding the matching file to /public/images/ */}
       <ImagePlaceholder
         src={artifact.image}

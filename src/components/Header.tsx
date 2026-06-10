@@ -16,7 +16,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-cream/85 backdrop-blur supports-[backdrop-filter]:bg-cream/75">
+    <header className="sticky top-0 z-50 border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/80">
       <Container>
         <div className="flex h-16 items-center justify-between gap-4">
           {/* Wordmark */}
@@ -27,11 +27,11 @@ export function Header() {
           >
             <span
               aria-hidden="true"
-              className="flex h-7 w-7 flex-col justify-center gap-[3px] rounded-md bg-teal px-1.5"
+              className="flex h-7 w-7 flex-col justify-center gap-[3px] rounded-lg bg-teal px-1.5"
             >
-              <span className="h-[2.5px] w-full rounded-full bg-cream" />
+              <span className="h-[2.5px] w-full rounded-full bg-white" />
               <span className="h-[2.5px] w-full rounded-full bg-mustard" />
-              <span className="h-[2.5px] w-2/3 rounded-full bg-clay-soft" />
+              <span className="h-[2.5px] w-2/3 rounded-full bg-mustard-soft" />
             </span>
             <span className="font-serif text-lg leading-none text-ink">
               {site.shortTitle}
@@ -46,10 +46,10 @@ export function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`rounded-md px-3 py-2 text-sm transition ${
+                  className={`rounded-full px-3.5 py-2 text-sm transition ${
                     active
-                      ? "font-semibold text-teal"
-                      : "text-muted hover:text-ink"
+                      ? "bg-mustard/30 font-bold text-teal"
+                      : "text-muted hover:bg-cream hover:text-ink"
                   }`}
                 >
                   {item.label}

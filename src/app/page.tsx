@@ -36,6 +36,7 @@ export default function HomePage() {
         intro={home.hero.intro}
         tag={home.hero.tag}
         image={home.hero.image}
+        imageSecondary={home.hero.imageSecondary}
       />
 
       {/* The wall was not decoration */}
@@ -179,7 +180,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/journey"
-            className="shrink-0 rounded-lg bg-cream px-5 py-3 text-sm font-semibold text-teal-dark transition hover:bg-mustard"
+            className="shrink-0 rounded-full bg-white px-6 py-3.5 text-sm font-bold text-teal transition hover:bg-mustard-soft"
           >
             Walk through the journey
           </Link>

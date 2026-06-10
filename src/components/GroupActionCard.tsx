@@ -16,7 +16,7 @@ export function GroupActionCard({
   const accent = accents[index % accents.length];
 
   return (
-    <article className="flex flex-col overflow-hidden rounded-xl border border-line bg-paper">
+    <article className="flex flex-col overflow-hidden rounded-2xl border border-line bg-paper shadow-[0_10px_30px_-22px_rgba(22,36,63,0.25)]">
       <div className="grid grid-cols-2 gap-px bg-line">
         <figure className="bg-paper">
           <ImagePlaceholder
