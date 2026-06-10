@@ -15,7 +15,7 @@ export const research = {
 
   leadImage: {
     src: "/images/evidence-of-inquiry-book.jpg",
-    alt: "Evidence of Inquiry by Jessica Vance next to a teacher notebook with sticky notes",
+    alt: "Evidence of Inquiry by Jessica Vance",
     caption: "Evidence of Inquiry (Vance, 2025), the working reference for this project.",
   },
 
@@ -37,7 +37,7 @@ export const research = {
     "Ritchhart, Church and Morrison’s Making Thinking Visible (Ritchhart, Church and Morrison, 2011) provided the broader family of routines that gave the wall most of its content. Tug of War and the related question-sorting practices appeared physically on the wall during the unit. The book’s central argument — that thinking becomes available for teaching only when it is made visible — is the operating logic of the whole project. The follow-up volume (Ritchhart and Church, 2020) extended several of these practices in ways I used in Weeks 6 and 7.",
 
   wiliam:
-    "Dylan Wiliam’s Embedded Formative Assessment (Wiliam, 2011) shaped how I read the wall as a teacher. Each week I walked the wall before students arrived and noted which groups were stuck, which questions were drifting, and which routines were producing usable evidence. The wall functioned as a low-cost formative tool: a quick scan told me where to push and where to leave alone.",
+    "Dylan Wiliam’s Embedded Formative Assessment (Wiliam, 2017) shaped how I read the wall as a teacher. Each week I walked the wall before students arrived and noted which groups were stuck, which questions were drifting, and which routines were producing usable evidence. The wall functioned as a low-cost formative tool: a quick scan told me where to push and where to leave alone.",
 
   reggio:
     "The Reggio Emilia tradition — the environment as a third teacher — sits behind the whole project (Edwards, Gandini and Forman, 1998; Krechevsky et al., 2013). Reggio’s argument that physical space teaches alongside the adult was the reason I cared about wall design at all.",
@@ -51,7 +51,7 @@ export const research = {
     {
       src: "/images/embedded-formative-assessment.jpg",
       alt: "Embedded Formative Assessment book cover",
-      caption: "Embedded Formative Assessment (2011).",
+      caption: "Embedded Formative Assessment, 2nd edn (2017).",
     },
   ],
 
@@ -66,6 +66,6 @@ export const research = {
     "Ritchhart, R. and Church, M. (2020) The Power of Making Thinking Visible: Practices to Engage and Empower All Learners. San Francisco: Jossey-Bass.",
     "Vance, J. (2025) Evidence of Inquiry. Elevate Books EDU.",
     "Vance, J. (2026) Evidence of Inquiry [professional development workshop]. Shanghai, April 2026.",
-    "Wiliam, D. (2011) Embedded Formative Assessment. Bloomington, IN: Solution Tree Press.",
+    "Wiliam, D. (2017) Embedded Formative Assessment. 2nd edn. Bloomington, IN: Solution Tree Press.",
   ],
 };

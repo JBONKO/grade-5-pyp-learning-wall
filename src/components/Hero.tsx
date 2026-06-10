@@ -14,7 +14,7 @@ export function Hero({
   eyebrow: string;
   title: string;
   subtitle: string;
-  intro: string;
+  intro: string[];
   tag: string;
   image: string;
 }) {
@@ -38,9 +38,11 @@ export function Hero({
           <p className="mt-6 max-w-xl text-xl leading-relaxed text-teal-dark sm:text-2xl">
             {subtitle}
           </p>
-          <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-muted">
-            {intro}
-          </p>
+          <div className="mt-5 max-w-xl space-y-4 text-[17px] leading-relaxed text-muted">
+            {intro.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
 
           <p className="mt-7 inline-block border-l-2 border-mustard bg-mustard/10 px-4 py-2 text-sm font-semibold text-teal-dark">
             {tag}

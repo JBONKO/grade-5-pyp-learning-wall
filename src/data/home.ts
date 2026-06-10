@@ -9,17 +9,22 @@ export const home = {
     title: "The Working Wall",
     subtitle:
       "How Grade 5 students used a wall to track inquiry, evidence, action, and exhibition readiness.",
-    intro:
-      "This site documents one wall in a bilingual PYP classroom during the Grade 5 Exhibition. The wall was not a display. It was the place where students kept their questions, research, evidence, mentor notes, and next steps where everyone could see them — and change them.",
-    tag: "Not a Display. A Record of Thinking.",
+    intro: [
+      "This site documents one wall in a bilingual Grade 5 PYP classroom.",
+      "The wall became the place where the inquiry stayed visible. Questions, research, evidence, mentor notes, and next steps were not hidden in notebooks or scattered across group conversations. They were on the wall, where students could see them, use them, and revise them.",
+    ],
+    tag: "Not a display. A working space.",
     image: "/images/hero-learning-wall.jpg",
   },
 
   notDecoration: {
     heading: "This wall showed work in progress",
     body: [
-      "Most display boards show finished work. This one showed work as it happened: half-formed questions, research that led nowhere, sticky notes that got moved three times.",
-      "Students added to it, argued with it, and rewrote it every week. When their thinking changed, the wall changed.",
+      "Most classroom boards show the work after it has been cleaned up.",
+      "This wall showed the work while it was still moving.",
+      "There were first questions that were too broad. Research notes that did not answer the question. Sticky notes that moved from one section to another after a group discussion. A poster that looked finished on Monday and needed rewriting by Thursday.",
+      "Students added to the wall each week. They moved things, crossed things out, replaced questions, and used the wall to decide what needed to happen next.",
+      "When their thinking changed, the wall changed.",
     ],
   },
 
