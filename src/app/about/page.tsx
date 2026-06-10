@@ -29,16 +29,16 @@ export default function AboutPage() {
               <p key={p}>{p}</p>
             ))}
           </div>
-          <figure className="mx-auto w-full max-w-[340px]">
+          <figure className="mx-auto w-full max-w-[460px]">
             <div className="overflow-hidden rounded-2xl border border-line shadow-sm">
               <ImagePlaceholder
-                src={about.photo.src}
-                alt={about.photo.alt}
-                ratio="3/4"
+                src={about.wallPhoto.src}
+                alt={about.wallPhoto.alt}
+                ratio="1/1"
               />
             </div>
             <figcaption className="mt-3 text-sm leading-relaxed text-muted">
-              {about.photo.caption}
+              {about.wallPhoto.caption}
             </figcaption>
           </figure>
         </div>
@@ -59,16 +59,16 @@ export default function AboutPage() {
               {about.questionsClose}
             </p>
           </div>
-          <figure>
+          <figure className="mx-auto w-full max-w-[340px]">
             <div className="overflow-hidden rounded-2xl border border-line">
               <ImagePlaceholder
-                src={about.wallPhoto.src}
-                alt={about.wallPhoto.alt}
-                ratio="1/1"
+                src={about.photo.src}
+                alt={about.photo.alt}
+                ratio="3/4"
               />
             </div>
             <figcaption className="mt-3 text-sm leading-relaxed text-muted">
-              {about.wallPhoto.caption}
+              {about.photo.caption}
             </figcaption>
           </figure>
         </div>

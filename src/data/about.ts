@@ -10,10 +10,13 @@ export const about = {
   // The opener, shown directly under the title.
   intro: "I teach Grade 5 in a bilingual IB PYP school in Shanghai.",
 
-  // Shown beside the professional photo.
+  // Shown beside the wall photo.
   lead: [
     "This site documents one part of my PYP Exhibition work: the learning wall my class used across an eight-week inquiry.",
     "I built the wall because too much of the Exhibition was easy to lose. A group could find three facts and not be able to explain which one mattered. The wall gave moments like that a place in the room.",
+    "I also lead the Grade 5 team, so the structures on this site were decisions I was responsible for: the weekly wall routines, the mentor-meeting cycle, and the readiness checks in the final weeks. When a meeting stopped earning its time, I cut it. The team runs one fewer planning meeting per unit now.",
+    "A lot of this site is records of things that did not work. That is deliberate. When something fails in my room, I write it down while it is still fresh, change one thing, and check again the next week. The What Changed page is six of those corrections in a row.",
+    "Students used AI during the Exhibition under one rule: the thinking happens first. They drafted their own questions before opening a tool, and anything it produced had to be rewritten in their own words before it counted as research. I am fine with AI in a classroom. I am not fine with it doing the thinking.",
   ],
 
   photo: {
