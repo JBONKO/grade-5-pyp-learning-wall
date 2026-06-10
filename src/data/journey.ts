@@ -206,6 +206,10 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "Some students came to Week 8 underprepared, without a clear role. That did not work. We pulled them for one-on-one support to find each of them a job — a part of the talk, a station task — so they could actually help their group at the exhibition.",
     gallery: [
+      { src: "/images/cue-card-creation.jpg", caption: "Drafting cue cards for the presentation." },
+      { src: "/images/cue-card-creation-2.jpg", caption: "Finished cue cards on top of the PYPx journal they came from." },
+      { src: "/images/p4c-question-2.jpg", caption: "A station's P4C question, asked in both languages." },
+      { src: "/images/p4c-question-3.jpg", caption: "Another station's P4C question — is it fair to control others' diet?" },
       { src: "/images/forms-of-expression-explained.jpg", caption: "A station's form of expression, explained by the group." },
       { src: "/images/forms-of-expression-inside.jpg", caption: "Inside the clay model built for the mental-health station." },
     ],
