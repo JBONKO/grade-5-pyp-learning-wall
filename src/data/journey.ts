@@ -76,6 +76,8 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk3-b.jpg", caption: "The wall timeline at the start of Week 3." },
       { src: "/images/what-we-need-to-find-out.jpg", caption: "“What We Need to Find Out” posters after Pull Up a Chair. The red stars mark information students starred for other groups' research." },
       { src: "/images/cornell-notes.jpg", caption: "A first round of Cornell notes — the research that fed each group's discussion of what they still needed to know." },
+      { src: "/images/journey-wk3-g.jpg", caption: "Groups building their “What We Learn? Week 3” posters from their notes and journals." },
+      { src: "/images/journey-wk3-h.jpg", caption: "One group's finished Week 3 poster — focus line of inquiry, ideas, sources, and questions, with TAG feedback taped on." },
     ],
   },
   {
