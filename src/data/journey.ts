@@ -58,7 +58,7 @@ export const weeks: Week[] = [
     title: "From Topics to Inquiry Structure",
     timelineBlurb: "Turned topics into central ideas and lines of inquiry.",
     whatStudentsWorkedOn:
-      "Students moved from a topic (“drones,” “food”) to a structure: a central idea, lines of inquiry, and questions that sat under them. They drafted LOI posters and the “Our Bigger Connection” TDT card.",
+      "Students moved from a topic (“drones,” “food”) to a structure: a central idea, lines of inquiry, and questions that sat under them. They drafted LOI posters and the “Our Bigger Connection” TDT card. The week also ran the What We Need to Find Out routine: a first round of Cornell notes research, then a group discussion of what they still needed to know. The class finished by pulling up a chair to every group's poster and putting red star stickers on information they thought mattered for other groups' research.",
     mainTeachingPoint:
       "A topic is not an inquiry. An inquiry needs lines that tell you what to find out.",
     artifactName: "LOI Poster",
@@ -73,12 +73,9 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "LOIs were too abstract on the first try. Students wrote lines they could not research. We added sentence frames and worked examples, and most LOIs were rewritten at least once.",
     gallery: [
-      { src: "/images/journey-wk3-a.jpg", caption: "The wall in Week 3: project maps linked with tape." },
       { src: "/images/journey-wk3-b.jpg", caption: "The wall timeline at the start of Week 3." },
-      { src: "/images/journey-wk3-f.jpg", caption: "A poster with the central idea and lines of inquiry taking shape." },
-      { src: "/images/journey-wk3-e.jpg", caption: "A student working on a group poster." },
-      { src: "/images/journey-wk3-c.jpg", caption: "The Revolutions group's project map." },
-      { src: "/images/journey-wk3-d.jpg", caption: "Adding tape connections between evidence and lines of inquiry." },
+      { src: "/images/what-we-need-to-find-out.jpg", caption: "“What We Need to Find Out” posters after Pull Up a Chair. The red stars mark information students starred for other groups' research." },
+      { src: "/images/cornell-notes.jpg", caption: "A first round of Cornell notes — the research that fed each group's discussion of what they still needed to know." },
     ],
   },
   {
@@ -87,7 +84,7 @@ export const weeks: Week[] = [
     title: "Research Gaps and Primary Evidence",
     timelineBlurb: "Audited what was missing, then chased real evidence.",
     whatStudentsWorkedOn:
-      "Students audited what they already had and what was missing using the Research Gap Table. Then they went after primary evidence: interviews, a canteen visit, an expert call.",
+      "Students audited what they already had and what was missing using the Research Gap Table. Then they went after primary evidence: interviews, a canteen visit, an expert call. The Project Map was introduced this week — each group's central idea, lines of inquiry, evidence, questions, and mentor advice went up in one place on the wall.",
     mainTeachingPoint:
       "No more random research. Research only what the project still needs.",
     artifactName: "Research Gap Table",
@@ -103,8 +100,9 @@ export const weeks: Week[] = [
       "Some groups copied prompts and answers straight from MagicSchool into their notes without reading them. We added a step: rewrite findings in your own words in Cornell Notes.",
     gallery: [
       { src: "/images/journey-wk4-a.jpg", caption: "The wall in Week 4 — project maps after Pull Up a Chair." },
-      { src: "/images/what-we-need-to-find-out.jpg", caption: "The “What We Need to Find Out” routine that fed the gap table." },
-      { src: "/images/research-gap-table-2.jpg", caption: "The Research Gap Table the routine turned into." },
+      { src: "/images/journey-wk3-a.jpg", caption: "Project maps up on the wall, with evidence, questions, and advice attached." },
+      { src: "/images/journey-wk3-c.jpg", caption: "The Revolutions group's project map in its first week." },
+      { src: "/images/research-gap-table-2.jpg", caption: "The Research Gap Table — built from each group's “What We Need to Find Out” list." },
       { src: "/images/journey-wk4-b.jpg", caption: "Survey and interview questions sorted on the triangle." },
       { src: "/images/what-are-we-learning-research.jpg", caption: "“What are we learning from our research?” — pulling findings together." },
     ],
@@ -131,6 +129,7 @@ export const weeks: Week[] = [
       "Students wanted to start building before they had a plan. We made the rule: no plan = no paint. A group had to show a Project Map before getting materials.",
     gallery: [
       { src: "/images/journey-wk5-a.jpg", caption: "The wall in Week 5, after Pull Up a Chair." },
+      { src: "/images/journey-wk3-d.jpg", caption: "Running the connection routine again — red tape linking new evidence back to the lines of inquiry." },
       { src: "/images/journey-wk5-b.jpg", caption: "The Question Triangle, updated in Week 5." },
       { src: "/images/station-design-zoom-1.jpg", caption: "A station design sketch, close up." },
       { src: "/images/station-design-zoom-2.jpg", caption: "Another group's station design sketch." },
@@ -185,6 +184,10 @@ export const weeks: Week[] = [
     ],
     whatDidNotWork:
       "Some posters still needed the presenter to explain them. We tested each poster by asking a student from another group to read it alone. If they did not get it, the poster changed.",
+    gallery: [
+      { src: "/images/journey-wk3-e.jpg", caption: "Building a station poster — research cards laid out before anything got glued down." },
+      { src: "/images/journey-wk3-f.jpg", caption: "A group's finished overview poster: central idea, TDT connection, lines of inquiry, and the action." },
+    ],
   },
   {
     id: "week-8",
