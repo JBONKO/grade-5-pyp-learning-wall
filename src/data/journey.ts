@@ -51,6 +51,8 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk12-e.jpg", caption: "Taking notes from a source — sketching to understand it." },
       { src: "/images/journey-wk12-g.jpg", caption: "Group posters going up on the wall timeline in Week 2." },
       { src: "/images/x-journal-cover-2.jpg", caption: "A student's X Journal cover, made in the first weeks." },
+      { src: "/images/journey-wk7-j.jpg", caption: "A drone drawn on an X Journal cover." },
+      { src: "/images/journey-wk7-m.jpg", caption: "A weekly reflection from the X Journal: what I did, what to change — and “we didn't have any arguments!!”" },
     ],
   },
   {
@@ -201,8 +203,6 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk7-h.jpg", caption: "A Visitor Experience Map in the X Journal — what a visitor sees, does, and learns at the station." },
       { src: "/images/journey-wk7-k.jpg", caption: "An Evidence Spotlight in the X Journal: the finding, where it came from, and the line of inquiry it connects to." },
       { src: "/images/journey-wk7-l.jpg", caption: "Planning “my job this week” in the X Journal, one data finding ready for the talk." },
-      { src: "/images/journey-wk7-j.jpg", caption: "A drone drawn on an X Journal cover." },
-      { src: "/images/journey-wk7-m.jpg", caption: "A weekly reflection from the X Journal: what I did, what to change — and “we didn't have any arguments!!”" },
     ],
   },
   {
