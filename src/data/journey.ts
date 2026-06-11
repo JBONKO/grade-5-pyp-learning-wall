@@ -49,6 +49,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk12-d.jpg", caption: "Building the research timeline that ran along the wall." },
       { src: "/images/journey-wk12-f.jpg", caption: "Question starters for getting unstuck." },
       { src: "/images/journey-wk12-e.jpg", caption: "Taking notes from a source — sketching to understand it." },
+      { src: "/images/journey-wk12-g.jpg", caption: "Group posters going up on the wall timeline in Week 2." },
       { src: "/images/x-journal-cover-2.jpg", caption: "A student's X Journal cover, made in the first weeks." },
     ],
   },
@@ -172,7 +173,7 @@ export const weeks: Week[] = [
     title: "Exhibition Readiness",
     timelineBlurb: "Made “are we ready?” a checklist, not a feeling.",
     whatStudentsWorkedOn:
-      "Groups ran a readiness check against a shared list: the station works, evidence is visible, the poster explains itself, every student has a speaking role. They fixed the last gaps.",
+      "Groups ran a readiness check against a shared list: the station works, evidence is visible, the poster explains itself, every student has a speaking role. They fixed the last gaps. Each group also began building a presentation timeline board — taking their artifacts down off the learning wall and re-hanging them as a record of the whole inquiry, ready for the presentation hall.",
     mainTeachingPoint:
       "A good poster helps visitors understand before you explain.",
     artifactName: "Exhibition Readiness Check",
@@ -187,8 +188,21 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "Some posters still needed the presenter to explain them. We tested each poster by asking a student from another group to read it alone. If they did not get it, the poster changed.",
     gallery: [
+      { src: "/images/journey-wk7-a.jpg", caption: "The Rational Consumption group's board: their weekly wall posters re-hung as a timeline of the whole inquiry." },
+      { src: "/images/journey-wk7-b.jpg", caption: "Wall artifacts laid out on the floor, being arranged into a presentation timeline." },
+      { src: "/images/journey-wk7-c.jpg", caption: "A group's wall work moving onto their presentation board." },
       { src: "/images/journey-wk3-e.jpg", caption: "Building a station poster — research cards laid out before anything got glued down." },
       { src: "/images/journey-wk3-f.jpg", caption: "A group's finished overview poster: central idea, TDT connection, lines of inquiry, and the action." },
+      { src: "/images/journey-wk7-d.jpg", caption: "A P4C question board painted for presentation day: can technology be helpful and dangerous at the same time?" },
+      { src: "/images/journey-wk7-e.jpg", caption: "The Healthy Eating group's action poster — interview questions, the plan, and what a healthy snack requires." },
+      { src: "/images/journey-wk7-f.jpg", caption: "Taking action on school snacks: the researched snack list, with reasons." },
+      { src: "/images/journey-wk7-g.jpg", caption: "Survey results turned into pie charts for the Revolutions station." },
+      { src: "/images/journey-wk7-i.jpg", caption: "A station robot built from cardboard boxes." },
+      { src: "/images/journey-wk7-h.jpg", caption: "A Visitor Experience Map in the X Journal — what a visitor sees, does, and learns at the station." },
+      { src: "/images/journey-wk7-k.jpg", caption: "An Evidence Spotlight in the X Journal: the finding, where it came from, and the line of inquiry it connects to." },
+      { src: "/images/journey-wk7-l.jpg", caption: "Planning “my job this week” in the X Journal, one data finding ready for the talk." },
+      { src: "/images/journey-wk7-j.jpg", caption: "A drone drawn on an X Journal cover." },
+      { src: "/images/journey-wk7-m.jpg", caption: "A weekly reflection from the X Journal: what I did, what to change — and “we didn't have any arguments!!”" },
     ],
   },
   {
@@ -197,7 +211,7 @@ export const weeks: Week[] = [
     title: "Presentation",
     timelineBlurb: "Last design fixes, then practicing the talk.",
     whatStudentsWorkedOn:
-      "The final week was for finishing station design and practicing the presentation. To write cue cards, groups pulled up a chair to their project maps and pulled the most important information off the wall. They also built timeline boards from their wall artifacts to take down to the presentation hall, showing their progress across the whole PYPx. That was the point of the week: the wall mattered, and everything students had made on it got used again when it counted.",
+      "The final week was for finishing station design and practicing the presentation. To write cue cards, groups pulled up a chair to their project maps and pulled the most important information off the wall. They finished the timeline boards begun in Week 7 and took them down to the presentation hall, showing their progress across the whole PYPx. That was the point of the week: the wall mattered, and everything students had made on it got used again when it counted.",
     mainTeachingPoint:
       "Practice the talk, not just the station. We used AFOREST — alliteration, facts, opinions, rhetorical questions, emotive language, statistics, triplets — to make presentations persuasive.",
     artifactName: "My Opening (presentation plan)",
