@@ -55,6 +55,10 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk7-m.jpg", caption: "A weekly reflection from the X Journal: what I did, what to change — and “we didn't have any arguments!!”" },
       { src: "/images/journey-wk1-teamwork-pie.jpg", caption: "A teamwork pie chart from week one. The student gave the biggest slice to responsibility, because if no one knows their job, the project falls apart." },
       { src: "/images/journey-wk1-collaboration-scale.jpg", caption: "A “how collaborative am I?” self-rating from the first week. This one landed at 3.5 out of 5, with a note about helping more on the group's research questions." },
+      { src: "/images/journey-wk2-drones-poster.jpg", caption: "The drones group's Week 2 poster on drones, AI, and safety. The parts of a drone, and the line between legal uses (farming, building monitoring, science) and illegal ones (spying, privacy problems)." },
+      { src: "/images/journey-wk2-popmart-poster.jpg", caption: "The rational consumption group on what they were learning in Week 2: why people buy Pop Mart, how marketing pulls on emotions, and where the money goes." },
+      { src: "/images/journey-wk2-transport-poster.jpg", caption: "The sustainable transport group's Week 2 poster, written as questions. What reduces pollution, what fuel transport does to the air, and whether electric energy really beats fuel." },
+      { src: "/images/journey-wk2-healthy-eating-poster.jpg", caption: "The healthy eating group's early poster on childhood obesity. Their lines of inquiry, their research so far, and a food scale running from fries up to vegetables." },
     ],
   },
   {
@@ -112,6 +116,9 @@ export const weeks: Week[] = [
       { src: "/images/research-gap-table-2.jpg", caption: "The Research Gap Table — built from each group's “What We Need to Find Out” list." },
       { src: "/images/journey-wk4-b.jpg", caption: "Survey and interview questions sorted on the triangle." },
       { src: "/images/what-are-we-learning-research.jpg", caption: "“What are we learning from our research?” — pulling findings together." },
+      { src: "/images/journey-wk4-drones-map.jpg", caption: "The drones group's project map. The central idea in the middle (technology must be used responsibly), three lines of inquiry below it, and evidence, questions, and mentor advice on sticky notes." },
+      { src: "/images/journey-wk4-transport-map.jpg", caption: "The sustainable transport group's project map. Central idea up top, three lines of inquiry, and the evidence, questions, and mentor advice pinned underneath." },
+      { src: "/images/journey-wk4-mental-health-map.jpg", caption: "The mental health group's project map, with tape running from each piece of evidence back to the line of inquiry it supports." },
     ],
   },
   {
@@ -141,6 +148,8 @@ export const weeks: Week[] = [
       { src: "/images/station-design-zoom-1.jpg", caption: "A station design sketch, close up." },
       { src: "/images/station-design-zoom-2.jpg", caption: "Another group's station design sketch." },
       { src: "/images/journey-wk5-c.jpg", caption: "A student sketching a station design." },
+      { src: "/images/journey-wk5-popmart-connections.jpg", caption: "The rational consumption group's project map, strung with red tape. Each ribbon ties a piece of evidence or a question back to the central idea." },
+      { src: "/images/journey-wk5-healthy-eating-action.jpg", caption: "The healthy eating group's weekly poster after their canteen visit, where they asked the canteen manager about the school's food. Healthy and unhealthy options, sorted." },
     ],
   },
   {
