@@ -82,6 +82,12 @@ export const home = {
       blurb: "Honest course corrections — what did not work, and the fix.",
       href: "/what-changed",
     },
+    {
+      title: "Mentor Buy-In",
+      blurb:
+        "A leadership project on clarifying the mentor role during Exhibition — so adults coach inquiry instead of managing it.",
+      href: "/mentor-buy-in",
+    },
   ],
 
   closingLine: "The wall changed as the students changed their thinking.",

@@ -23,6 +23,7 @@ export const nav: NavItem[] = [
   { label: "Group Actions", href: "/group-actions" },
   { label: "Exhibition", href: "/exhibition" },
   { label: "What Changed", href: "/what-changed" },
+  { label: "Mentor Buy-In", href: "/mentor-buy-in" },
   { label: "About", href: "/about" },
 ];
 
