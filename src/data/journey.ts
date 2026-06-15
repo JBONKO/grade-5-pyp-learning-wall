@@ -122,6 +122,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk4-drones-map.jpg", caption: "The drones group's project map. The central idea in the middle (technology must be used responsibly), three lines of inquiry below it, and evidence, questions, and mentor advice on sticky notes." },
       { src: "/images/journey-wk4-transport-map.jpg", caption: "The sustainable transport group's project map. Central idea up top, three lines of inquiry, and the evidence, questions, and mentor advice pinned underneath." },
       { src: "/images/journey-wk4-mental-health-map.jpg", caption: "The mental health group's project map, with tape running from each piece of evidence back to the line of inquiry it supports." },
+      { src: "/images/journey-wk4-field-trip.jpg", caption: "A field trip reflection in the X Journal. The group visited a flight simulator in Pudong and came back with facts for the inquiry, like the five steps to put on an oxygen mask." },
     ],
   },
   {
@@ -197,10 +198,10 @@ export const weeks: Week[] = [
       "Groups ran a readiness check against a shared list: the station works, evidence is visible, the poster explains itself, every student has a speaking role. They fixed the last gaps. Each group also began building a presentation timeline board — taking their artifacts down off the learning wall and re-hanging them as a record of the whole inquiry, ready for the presentation hall.",
     mainTeachingPoint:
       "A good poster helps visitors understand before you explain.",
-    artifactName: "Exhibition Readiness Check",
-    image: "/images/exhibition-readiness-check.jpg",
+    artifactName: "Exhibition Group Work Timeline",
+    image: "/images/exhibition-timeline-board.jpg",
     whyArtifactMattered:
-      "The readiness check turned “are we ready?” into a list instead of a feeling. Groups could see what was left.",
+      "Each group took its weekly posters off the learning wall and re-hung them as one timeline. A visitor could read the whole inquiry in order, from the first central idea to the final action, before the group said a word.",
     photoSlots: [
       "Exhibition Readiness Check sheet",
       "Final station set up",

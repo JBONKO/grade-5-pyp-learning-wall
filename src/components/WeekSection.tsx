@@ -2,7 +2,8 @@ import type { Week } from "@/data/journey";
 import { Container } from "./Container";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 
-/** One week of the journey. Text and media swap sides on alternating weeks. */
+/** One week of the journey. Text and the main artifact swap sides on alternating
+ *  weeks; the photo gallery runs full-width below so many photos stay compact. */
 export function WeekSection({ week, index }: { week: Week; index: number }) {
   const even = index % 2 === 0;
 
@@ -65,7 +66,7 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
             ) : null}
           </div>
 
-          {/* Media column */}
+          {/* Media column — the week's main artifact */}
           <div className={even ? "lg:order-2" : "lg:order-1"}>
             <div className="overflow-hidden rounded-2xl border border-line">
               {/* Replace by adding the matching file to /public/images/ */}
@@ -77,55 +78,59 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
               />
             </div>
 
-            {week.gallery && week.gallery.length > 0 ? (
-              <div className="mt-5">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
-                  From this week
-                </p>
-                <div className="mt-3 grid grid-cols-2 gap-3">
-                  {week.gallery.map((shot) => (
-                    <figure key={shot.src}>
-                      <div className="overflow-hidden rounded-lg border border-line">
-                        <ImagePlaceholder src={shot.src} alt={shot.caption} ratio="4/3" />
-                      </div>
-                      <figcaption className="mt-1.5 text-xs leading-snug text-muted">
-                        {shot.caption}
-                      </figcaption>
-                    </figure>
-                  ))}
-                </div>
-              </div>
-            ) : (
+            {/* No gallery yet: show the suggested-photo checklist instead */}
+            {week.gallery && week.gallery.length > 0 ? null : (
               <div className="mt-5 rounded-lg border border-line bg-paper p-5">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
-                Suggested photos
-              </p>
-              <ul className="mt-3 space-y-2">
-                {week.photoSlots.map((slot) => (
-                  <li key={slot} className="flex items-start gap-2.5 text-[15px] text-ink/90">
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#1C2E52"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      aria-hidden="true"
-                      className="mt-1 shrink-0"
-                    >
-                      <path d="M4 7h3l2-2h6l2 2h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z" />
-                      <circle cx="12" cy="13" r="3.2" />
-                    </svg>
-                    {slot}
-                  </li>
-                ))}
-              </ul>
-            </div>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
+                  Suggested photos
+                </p>
+                <ul className="mt-3 space-y-2">
+                  {week.photoSlots.map((slot) => (
+                    <li key={slot} className="flex items-start gap-2.5 text-[15px] text-ink/90">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="#1C2E52"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                        className="mt-1 shrink-0"
+                      >
+                        <path d="M4 7h3l2-2h6l2 2h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z" />
+                        <circle cx="12" cy="13" r="3.2" />
+                      </svg>
+                      {slot}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </div>
         </div>
+
+        {/* Photo gallery — full width so many photos stay compact, not a long line */}
+        {week.gallery && week.gallery.length > 0 ? (
+          <div className="mt-10">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
+              From this week
+            </p>
+            <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+              {week.gallery.map((shot) => (
+                <figure key={shot.src}>
+                  <div className="overflow-hidden rounded-lg border border-line">
+                    <ImagePlaceholder src={shot.src} alt={shot.caption} ratio="4/3" />
+                  </div>
+                  <figcaption className="mt-1.5 text-xs leading-snug text-muted">
+                    {shot.caption}
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+        ) : null}
       </Container>
     </section>
   );
