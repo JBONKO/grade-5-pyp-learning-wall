@@ -181,37 +181,42 @@ export const mentor = {
   // /public/images/<file> and it fills in.
   artifactsHeading: "Evidence and artifacts",
   artifactsIntro:
-    "These are the real materials from the project. I will add scans and exports as I clean them up. Click any image to enlarge it.",
+    "These are the real materials from the project, the ones mentors and students actually used. Click any image to read it.",
   artifacts: [
     {
-      src: "/images/mentor-guidebook.jpg",
-      alt: "PYP Exhibition Mentor Guidebook",
-      caption: "The remade PYP Exhibition Mentor Guidebook. Shorter, clearer, built around facilitating questions.",
+      src: "/images/mentor-meetings-deck.png",
+      alt: "Staff briefing slide titled Why Are We Here, with the mentor role, the goal, and survey feedback",
+      caption: "The slide that opened the staff briefing. The goal in one line: support mentors, do not add to their workload. The feedback box is the survey that started the project.",
     },
     {
-      src: "/images/mentor-guidance-sheet.jpg",
-      alt: "One-page mentor guidance sheet",
-      caption: "The one-page mentor guidance sheet. The role at a glance.",
-    },
-    {
-      src: "/images/mentor-meeting-expectations.jpg",
-      alt: "Mentor meeting expectations for students",
-      caption: "Mentor meeting expectations, written for the students who lead the meeting.",
-    },
-    {
-      src: "/images/mentor-meeting-record.jpg",
-      alt: "Mentor meeting record",
-      caption: "The mentor meeting record. Advice in, one clear next step out.",
+      src: "/images/mentor-guidebook.png",
+      alt: "Mentor guidebook page, Section 1, Purpose of the Mentor Role",
+      caption: "Section one of the remade guidebook: the purpose of the role. Mentors guide by asking questions. They do not lead the project or hand out the work.",
     },
     {
       src: "/images/mentor-meeting-norms.jpg",
-      alt: "Mentor meeting norms",
-      caption: "Mentor meeting norms, shared with every mentor pair.",
+      alt: "Mentor meeting norms and facilitating questions sheet, four sections",
+      caption: "Meeting norms on one page. What students do, what mentors do, the five-step structure, and a set of guiding questions to pick from.",
     },
     {
-      src: "/images/mentor-meetings-deck.jpg",
-      alt: "Mentor meetings overview deck",
-      caption: "The overview deck used to brief mentors on how a meeting runs.",
+      src: "/images/mentor-meeting-expectations.png",
+      alt: "Mentor meeting expectations for students: before, during, after, and group roles",
+      caption: "What students do before, during, and after the meeting, with roles that rotate each time. The kids run the meeting, so the kids get the checklist.",
+    },
+    {
+      src: "/images/mentor-student-lesson.png",
+      alt: "Bilingual student lesson slide titled Before the Meeting, in English and Chinese",
+      caption: "A slide from the lesson the kids got first, in both languages. They learned how to prepare for a meeting before they ever sat in one.",
+    },
+    {
+      src: "/images/mentor-meeting-record.jpg",
+      alt: "Mentor meeting record sheet, front page",
+      caption: "The meeting record, front page. Progress since the last meeting, the current focus, and the problems the group is hitting.",
+    },
+    {
+      src: "/images/mentor-meeting-record-back.png",
+      alt: "Mentor meeting record sheet, back page, with coaching questions and an action plan",
+      caption: "The back of the record. Coaching questions to choose from, an action plan, and a quick group reflection. Advice in, a clear next step out.",
     },
   ],
 

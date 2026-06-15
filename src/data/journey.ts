@@ -53,6 +53,8 @@ export const weeks: Week[] = [
       { src: "/images/x-journal-cover-2.jpg", caption: "A student's X Journal cover, made in the first weeks." },
       { src: "/images/journey-wk7-j.jpg", caption: "A drone drawn on an X Journal cover." },
       { src: "/images/journey-wk7-m.jpg", caption: "A weekly reflection from the X Journal: what I did, what to change — and “we didn't have any arguments!!”" },
+      { src: "/images/journey-wk1-teamwork-pie.jpg", caption: "A teamwork pie chart from week one. The student gave the biggest slice to responsibility, because if no one knows their job, the project falls apart." },
+      { src: "/images/journey-wk1-collaboration-scale.jpg", caption: "A “how collaborative am I?” self-rating from the first week. This one landed at 3.5 out of 5, with a note about helping more on the group's research questions." },
     ],
   },
   {
@@ -167,6 +169,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk6-b.jpg", caption: "Painting a cardboard station sign." },
       { src: "/images/journey-wk6-d.jpg", caption: "Station design maps for all groups." },
       { src: "/images/journey-wk6-c.jpg", caption: "A group's weekly poster: sustainable transportation." },
+      { src: "/images/journey-wk6-x-journal.jpg", caption: "One X Journal page doing a lot of work at once: the student's best question, what they heard that week, the job they set themselves, and the slide they planned to build." },
     ],
   },
   {
@@ -203,6 +206,8 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk7-h.jpg", caption: "A Visitor Experience Map in the X Journal — what a visitor sees, does, and learns at the station." },
       { src: "/images/journey-wk7-k.jpg", caption: "An Evidence Spotlight in the X Journal: the finding, where it came from, and the line of inquiry it connects to." },
       { src: "/images/journey-wk7-l.jpg", caption: "Planning “my job this week” in the X Journal, one data finding ready for the talk." },
+      { src: "/images/journey-wk7-presentation-plan.jpg", caption: "Week 7 presentation planning in the X Journal. A student drafts her opening, the group's central idea and lines of inquiry, and a sketch of the poster visitors meet first." },
+      { src: "/images/journey-wk7-visitor-qa.jpg", caption: "Getting ready for visitors. The sustainable transport group lists the questions a visitor might ask, then drafts an answer for each. One of them: are new-energy cars really pollution-free?" },
     ],
   },
   {
@@ -232,6 +237,8 @@ export const weeks: Week[] = [
       { src: "/images/p4c-question-3.jpg", caption: "Another station's P4C question — is it fair to control others' diet?" },
       { src: "/images/forms-of-expression-explained.jpg", caption: "A station's form of expression, explained by the group." },
       { src: "/images/forms-of-expression-inside.jpg", caption: "Inside the clay model built for the mental-health station." },
+      { src: "/images/journey-wk8-checklist.jpg", caption: "A student's own presentation checklist. Finish the poster, the quiz, the drama, practice the talk, get prepared mentally. Every box ticked, with a finish line drawn at the bottom." },
+      { src: "/images/journey-wk8-finish-reflection.jpg", caption: "A finish-line reflection before exhibition day. What the student wants visitors to remember, what still needs practice (speed), and the goal they are working on: walk in confident." },
     ],
   },
 ];
