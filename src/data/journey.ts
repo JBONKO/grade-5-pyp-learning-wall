@@ -59,6 +59,8 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk2-popmart-poster.jpg", caption: "The rational consumption group on what they were learning in Week 2: why people buy Pop Mart, how marketing pulls on emotions, and where the money goes." },
       { src: "/images/journey-wk2-transport-poster.jpg", caption: "The sustainable transport group's Week 2 poster, written as questions. What reduces pollution, what fuel transport does to the air, and whether electric energy really beats fuel." },
       { src: "/images/journey-wk2-healthy-eating-poster.jpg", caption: "The healthy eating group's early poster on childhood obesity. Their lines of inquiry, their research so far, and a food scale running from fries up to vegetables." },
+      { src: "/images/journey-wk1-unstuck-sorting.jpg", caption: "The sorting activity that became the Research Unstuck Wall. Kids wrote what stops them on a sticky, then sorted the stickies into six kinds of stuck, from not knowing where to start to tools and websites being confusing." },
+      { src: "/images/journey-wk1-journal-cover.jpg", caption: "A finished X Journal cover, painted with the five approaches to learning the kids leaned on all term: communication, research, thinking, social, and self-management." },
     ],
   },
   {
@@ -87,6 +89,7 @@ export const weeks: Week[] = [
       { src: "/images/cornell-notes.jpg", caption: "A first round of Cornell notes — the research that fed each group's discussion of what they still needed to know." },
       { src: "/images/journey-wk3-g.jpg", caption: "Groups building their “What We Learn? Week 3” posters from their notes and journals." },
       { src: "/images/journey-wk3-h.jpg", caption: "One group's finished Week 3 poster — focus line of inquiry, ideas, sources, and questions, with TAG feedback taped on." },
+      { src: "/images/journey-wk3-tdt-card.jpg", caption: "The revolutions group's “Our Bigger Connection” card. They tied the French and American revolutions to the theme Where We Are in Place and Time, and wrote out why it fits." },
     ],
   },
   {
@@ -150,6 +153,9 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk5-c.jpg", caption: "A student sketching a station design." },
       { src: "/images/journey-wk5-popmart-connections.jpg", caption: "The rational consumption group's project map, strung with red tape. Each ribbon ties a piece of evidence or a question back to the central idea." },
       { src: "/images/journey-wk5-healthy-eating-action.jpg", caption: "The healthy eating group's weekly poster after their canteen visit, where they asked the canteen manager about the school's food. Healthy and unhealthy options, sorted." },
+      { src: "/images/journey-wk5-action-feedback.jpg", caption: "Action posters going up, with classmates' feedback stuck around them as speech bubbles. Each group's plan, and what the room thought of it." },
+      { src: "/images/journey-wk5-reflection.jpg", caption: "A Week 5 reflection wheel from the X Journal. Three things done, a question still open (how do you judge whether a trip is sustainable?), and a plan to finish the group work on time." },
+      { src: "/images/journey-wk5-mental-health-action.jpg", caption: "The mental health group's weekly poster, built around their action: helping with a friendship club and presenting at assembly, with a field trip booked for June." },
     ],
   },
   {
@@ -179,6 +185,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk6-d.jpg", caption: "Station design maps for all groups." },
       { src: "/images/journey-wk6-c.jpg", caption: "A group's weekly poster: sustainable transportation." },
       { src: "/images/journey-wk6-x-journal.jpg", caption: "One X Journal page doing a lot of work at once: the student's best question, what they heard that week, the job they set themselves, and the slide they planned to build." },
+      { src: "/images/journey-wk6-highlight.jpg", caption: "A highlight page mapping the whole inquiry week by week, from forming the topic in Week 1 to finishing the action video and the field trip by Week 6." },
     ],
   },
   {
@@ -248,6 +255,7 @@ export const weeks: Week[] = [
       { src: "/images/forms-of-expression-inside.jpg", caption: "Inside the clay model built for the mental-health station." },
       { src: "/images/journey-wk8-checklist.jpg", caption: "A student's own presentation checklist. Finish the poster, the quiz, the drama, practice the talk, get prepared mentally. Every box ticked, with a finish line drawn at the bottom." },
       { src: "/images/journey-wk8-finish-reflection.jpg", caption: "A finish-line reflection before exhibition day. What the student wants visitors to remember, what still needs practice (speed), and the goal they are working on: walk in confident." },
+      { src: "/images/journey-wk8-station-showcase.jpg", caption: "The sustainable transport group's station plan. A bike wired to a light bulb (pedal it, and the bulb goes from dark to bright), the three things a visitor should learn, and a showcase that ends with visitors pledging to choose sustainable transport." },
     ],
   },
 ];
