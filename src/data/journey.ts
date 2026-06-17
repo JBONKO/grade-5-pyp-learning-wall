@@ -168,10 +168,10 @@ export const weeks: Week[] = [
       "Groups built their stations from cardboard, tested them on classmates, and fixed what did not work using the Station Test + Fix List. They practiced their speaking roles.",
     mainTeachingPoint:
       "Feedback should lead to change. Test the station, then fix it.",
-    artifactName: "Station Test + Fix List",
-    image: "/images/station-test-fix-list.jpg",
+    artifactName: "Station Design Maps",
+    image: "/images/journey-wk6-d.jpg",
     whyArtifactMattered:
-      "Testing turned vague worries into a list. Each problem a tester found became a fix the group could check off.",
+      "Every group built from a design map: what the station was, where a visitor would stand, what they would do there. The map had to exist before the cardboard did.",
     photoSlots: [
       "Cardboard station title in progress",
       "Station being tested by classmates",
@@ -183,7 +183,6 @@ export const weeks: Week[] = [
     gallery: [
       { src: "/images/journey-wk6-a.jpg", caption: "The wall by build week, with station materials below it." },
       { src: "/images/journey-wk6-b.jpg", caption: "Painting a cardboard station sign." },
-      { src: "/images/journey-wk6-d.jpg", caption: "Station design maps for all groups." },
       { src: "/images/journey-wk6-c.jpg", caption: "A group's weekly poster: sustainable transportation." },
       { src: "/images/journey-wk6-x-journal.jpg", caption: "One X Journal page doing a lot of work at once: the student's best question, what they heard that week, the job they set themselves, and the slide they planned to build." },
       { src: "/images/journey-wk6-highlight.jpg", caption: "A highlight page mapping the whole inquiry week by week, from forming the topic in Week 1 to finishing the action video and the field trip by Week 6." },
@@ -248,6 +247,21 @@ export const weeks: Week[] = [
     whatDidNotWork:
       "Some students came to Week 8 underprepared, without a clear role. That did not work. We pulled them for one-on-one support to find each of them a job — a part of the talk, a station task — so they could actually help their group at the exhibition.",
     gallery: [
+      { src: "/images/journey-wk8-healthy-presenting.jpg", caption: "Exhibition day. The healthy eating group walks visitors through their station under the PYPx banner, central idea, action poster, and P4C question all in reach." },
+      { src: "/images/journey-wk8-drones-drama.jpg", caption: "The drones group performs their drama for a packed audience, the principal down in the front row with the kids." },
+      { src: "/images/journey-wk8-transport-station.jpg", caption: "The sustainable transport station, built around a real bike, with the central idea and lines of inquiry behind it." },
+      { src: "/images/journey-wk8-revolutions-station.jpg", caption: "The revolutions station: American and French Revolution boards, a central idea map, and a card game waiting on the table." },
+      { src: "/images/journey-wk8-drones-station.jpg", caption: "The drones group's walk-through gallery, with a P4C question on AI safety, a built robot, and drone safety tips hung for visitors to read." },
+      { src: "/images/journey-wk8-pedal-light.jpg", caption: "Try it yourself: pedal the bike to light the bulb. The sustainable transport group turned their message into something a visitor could do." },
+      { src: "/images/journey-wk8-easel-xjournal.jpg", caption: "An easel of X Journal pages and a P4C question, with visitor answers on sticky notes. The station borrowed the wall's own sticky-note system." },
+      { src: "/images/journey-wk8-transport-stickies.jpg", caption: "The sustainable transport group asked every visitor to write one daily action on a sticky note. The action, handed to the visitor." },
+      { src: "/images/journey-wk8-healthy-poster.jpg", caption: "The healthy eating group's final action poster, finished for exhibition day." },
+      { src: "/images/journey-wk8-drones-timeline.jpg", caption: "The drones group strung their whole inquiry timeline on a line, so visitors could walk it from first question to final action." },
+      { src: "/images/journey-wk8-revolutions-xjournal.jpg", caption: "Highlighted X Journal pages next to the revolutions group's P4C board." },
+      { src: "/images/journey-wk8-revolutions-poster.jpg", caption: "Close up of the revolutions poster: the causes of the French Revolution, in the group's own words." },
+      { src: "/images/journey-wk8-revolutions-survey.jpg", caption: "Survey results and an open X Journal at the revolutions station, the evidence behind the talk." },
+      { src: "/images/journey-wk8-revolutions-cardgame.jpg", caption: "The revolutions group built a leader card game and a brochure, with a QR code so visitors could keep reading." },
+      { src: "/images/journey-wk8-bike-light.jpg", caption: "The bulb the pedals power, wired to the bike. Proof the action actually worked." },
       { src: "/images/cue-card-creation.jpg", caption: "Drafting cue cards. Groups pulled up a chair to their project maps and chose the information that mattered most." },
       { src: "/images/cue-card-creation-2.jpg", caption: "Finished cue cards on top of the PYPx journal. The top information from the wall, ready for the talk." },
       { src: "/images/p4c-question-2.jpg", caption: "A station's P4C question, asked in both languages." },

@@ -1,11 +1,18 @@
 import type { Week } from "@/data/journey";
 import { Container } from "./Container";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { Carousel } from "./Carousel";
+
+const HIGHLIGHT_COUNT = 8;
 
 /** One week of the journey. Text and the main artifact swap sides on alternating
- *  weeks; the photo gallery runs full-width below so many photos stay compact. */
+ *  weeks. Up to eight gallery photos run full-width in a grid below; any extras
+ *  drop into a swipeable carousel so the page stays compact. */
 export function WeekSection({ week, index }: { week: Week; index: number }) {
   const even = index % 2 === 0;
+  const gallery = week.gallery ?? [];
+  const highlights = gallery.slice(0, HIGHLIGHT_COUNT);
+  const more = gallery.slice(HIGHLIGHT_COUNT);
 
   return (
     <section
@@ -79,7 +86,7 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
             </div>
 
             {/* No gallery yet: show the suggested-photo checklist instead */}
-            {week.gallery && week.gallery.length > 0 ? null : (
+            {gallery.length === 0 ? (
               <div className="mt-5 rounded-lg border border-line bg-paper p-5">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
                   Suggested photos
@@ -107,18 +114,18 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
                   ))}
                 </ul>
               </div>
-            )}
+            ) : null}
           </div>
         </div>
 
-        {/* Photo gallery — full width so many photos stay compact, not a long line */}
-        {week.gallery && week.gallery.length > 0 ? (
+        {/* Highlight gallery — full width so the photos stay compact */}
+        {highlights.length > 0 ? (
           <div className="mt-10">
             <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
               From this week
             </p>
             <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-              {week.gallery.map((shot) => (
+              {highlights.map((shot) => (
                 <figure key={shot.src}>
                   <div className="overflow-hidden rounded-lg border border-line">
                     <ImagePlaceholder src={shot.src} alt={shot.caption} ratio="4/3" />
@@ -128,6 +135,18 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
                   </figcaption>
                 </figure>
               ))}
+            </div>
+          </div>
+        ) : null}
+
+        {/* Everything beyond the first eight drops into a swipeable carousel */}
+        {more.length > 0 ? (
+          <div className="mt-8">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
+              More from this week
+            </p>
+            <div className="mt-4">
+              <Carousel items={more} />
             </div>
           </div>
         ) : null}
