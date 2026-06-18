@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
+import { SectionHeading } from "@/components/SectionHeading";
 import { Timeline } from "@/components/Timeline";
 import { WeekSection } from "@/components/WeekSection";
-import { weeks } from "@/data/journey";
+import { weeks, journeyConclusion } from "@/data/journey";
 
 export const metadata: Metadata = {
   title: "The Journey",
@@ -36,6 +37,21 @@ export default function JourneyPage() {
           <WeekSection key={week.id} week={week} index={index} />
         ))}
       </div>
+
+      {/* Concluding reflection on the whole process */}
+      <Section tone="paper">
+        <div className="mx-auto max-w-3xl">
+          <SectionHeading
+            eyebrow={journeyConclusion.eyebrow}
+            title={journeyConclusion.heading}
+          />
+          <div className="mt-7 space-y-5 text-lg leading-relaxed text-ink/90">
+            {journeyConclusion.paragraphs.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </Section>
     </>
   );
 }

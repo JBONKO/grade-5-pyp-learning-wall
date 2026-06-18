@@ -3,16 +3,19 @@ import { Container } from "./Container";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 import { Carousel } from "./Carousel";
 
-const HIGHLIGHT_COUNT = 12;
+const HIGHLIGHT_COUNT = 8;
 
 /** One week of the journey. Text and the main artifact swap sides on alternating
- *  weeks. Up to twelve gallery photos run full-width in a grid below; any extras
- *  drop into a swipeable carousel so the page stays compact. */
+ *  weeks. Gallery photos run full-width in a grid below. A few extra photos stay
+ *  in the grid; only a larger overflow drops into a swipeable carousel. */
 export function WeekSection({ week, index }: { week: Week; index: number }) {
   const even = index % 2 === 0;
   const gallery = week.gallery ?? [];
-  const highlights = gallery.slice(0, HIGHLIGHT_COUNT);
-  const more = gallery.slice(HIGHLIGHT_COUNT);
+  // Keep a couple of extra photos in the grid; only break out a carousel when
+  // there are enough extras to actually scroll past the first row.
+  const useCarousel = gallery.length > HIGHLIGHT_COUNT + 4;
+  const highlights = useCarousel ? gallery.slice(0, HIGHLIGHT_COUNT) : gallery;
+  const more = useCarousel ? gallery.slice(HIGHLIGHT_COUNT) : [];
 
   return (
     <section

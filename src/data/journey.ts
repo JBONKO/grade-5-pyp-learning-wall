@@ -277,3 +277,16 @@ export const weeks: Week[] = [
     ],
   },
 ];
+
+// A short closing reflection on the whole process, shown at the end of the
+// Journey page after the eight weeks.
+export const journeyConclusion = {
+  eyebrow: "After the exhibition",
+  heading: "What the wall was for",
+  paragraphs: [
+    "Eight weeks, one wall, 23 kids, 6 groups. The wall was never the point. The point was that the thinking stayed somewhere the kids could see it, argue with it, and move it. By the exhibition, a group's questions, evidence, and dead ends were not sitting in a folder. They were on a board the group carried into the hall and stood next to.",
+    "It did not run clean. The wall got crowded fast, and for a couple of weeks it was clutter instead of a system, until we built a routine to move and retire notes. Some kids treated it as decoration right up until the week they had to update it in front of their group. Early on, a few copied answers straight out of MagicSchool without reading them, so we added one rule: rewrite the finding in your own words first, or it does not count.",
+    "It was also heavy. Eight weeks of building routines, running pull-up-a-chair sessions, and teaching into the wall is more work than printing a checklist and handing it out. I cut other things to make room for it. My read is that it was worth the trade, but I am not going to pretend it was free.",
+    "The part I keep going back to is week eight. The groups pulled their work off the wall and rebuilt it as a timeline for the presentation hall. They had been moving those pieces around the wall for two months. Nobody asked me which one came first.",
+  ],
+};
