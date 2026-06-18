@@ -3,10 +3,10 @@ import { Container } from "./Container";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 import { Carousel } from "./Carousel";
 
-const HIGHLIGHT_COUNT = 8;
+const HIGHLIGHT_COUNT = 12;
 
 /** One week of the journey. Text and the main artifact swap sides on alternating
- *  weeks. Up to eight gallery photos run full-width in a grid below; any extras
+ *  weeks. Up to twelve gallery photos run full-width in a grid below; any extras
  *  drop into a swipeable carousel so the page stays compact. */
 export function WeekSection({ week, index }: { week: Week; index: number }) {
   const even = index % 2 === 0;

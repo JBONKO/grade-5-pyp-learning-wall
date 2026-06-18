@@ -128,22 +128,6 @@ export const artifacts: Artifact[] = [
     featured: true,
   },
   {
-    id: "station-test-fix-list",
-    title: "Station Test + Fix List",
-    image: "/images/station-test-fix-list.jpg",
-    purpose: "Turn test feedback into a checklist of fixes.",
-    how: "Testers found problems. The group wrote each as a fix and checked it off when done.",
-    why: "Vague worry became a list. The group knew exactly what to repair.",
-  },
-  {
-    id: "exhibition-readiness-check",
-    title: "Exhibition Readiness Check",
-    image: "/images/exhibition-readiness-check.jpg",
-    purpose: "A shared list to decide whether a station is ready.",
-    how: "Groups checked station, evidence, poster, and speaking roles against the list and fixed gaps.",
-    why: "“Are we ready?” became a list instead of a feeling.",
-  },
-  {
     id: "mentor-meeting-reflection",
     title: "Mentor Meeting Reflection",
     image: "/images/mentor-meeting-reflection.jpg",

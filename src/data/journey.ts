@@ -46,6 +46,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk12-a.jpg", caption: "The wall at the end of Week 1." },
       { src: "/images/journey-wk12-c.jpg", caption: "A “don't know where to start” mind map from the first days." },
       { src: "/images/journey-wk12-b.jpg", caption: "Students adding questions to the first Question Triangle." },
+      { src: "/images/journey-wk1-triangle-rd2.jpg", caption: "The second Question Triangle, rebuilt with three categories after the first one had too many to sort. Now a question had an obvious place to go." },
       { src: "/images/journey-wk12-d.jpg", caption: "Building the research timeline that ran along the wall." },
       { src: "/images/journey-wk12-f.jpg", caption: "Question starters for getting unstuck." },
       { src: "/images/journey-wk12-e.jpg", caption: "Taking notes from a source — sketching to understand it." },
@@ -90,6 +91,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk3-g.jpg", caption: "Groups building their “What We Learn? Week 3” posters from their notes and journals." },
       { src: "/images/journey-wk3-h.jpg", caption: "One group's finished Week 3 poster — focus line of inquiry, ideas, sources, and questions, with TAG feedback taped on." },
       { src: "/images/journey-wk3-tdt-card.jpg", caption: "The revolutions group's “Our Bigger Connection” card. They tied the French and American revolutions to the theme Where We Are in Place and Time, and wrote out why it fits." },
+      { src: "/images/journey-wk3-mental-health-poster.jpg", caption: "The mental disorder group's Week 3 poster: topic, focus line of inquiry, ideas, and sources, with a TAG feedback note taped on. The suggestion was blunt: add more detail, and do not copy straight from the source." },
     ],
   },
   {
@@ -186,6 +188,7 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk6-c.jpg", caption: "A group's weekly poster: sustainable transportation." },
       { src: "/images/journey-wk6-x-journal.jpg", caption: "One X Journal page doing a lot of work at once: the student's best question, what they heard that week, the job they set themselves, and the slide they planned to build." },
       { src: "/images/journey-wk6-highlight.jpg", caption: "A highlight page mapping the whole inquiry week by week, from forming the topic in Week 1 to finishing the action video and the field trip by Week 6." },
+      { src: "/images/journey-wk6-station-design-ideas.jpg", caption: "Early station design ideas, sketched in 3D before anyone cut cardboard: a tent, a draped table, an open box stand." },
     ],
   },
   {
