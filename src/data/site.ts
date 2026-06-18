@@ -29,4 +29,4 @@ export const nav: NavItem[] = [
 
 // A recurring idea, reused as a footer line / pull quote.
 export const coreIdea =
-  "The learning wall was not decoration. It was a working system that showed how inquiry became action and exhibition.";
+  "The wall held questions, evidence, and next steps where the class could see them and change them.";
