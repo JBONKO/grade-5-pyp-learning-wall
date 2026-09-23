@@ -11,7 +11,12 @@ import type { Week } from "./journey";
 import { site } from "./site";
 import * as tradeSystems from "./units/trade-systems";
 
-export type ArcStep = { id: string; label: string; title: string };
+export type ArcStep = {
+  id: string;
+  label: string;
+  title: string;
+  note?: string; // shown under an upcoming step instead of "Coming up"
+};
 
 export type Unit = {
   slug: string;
@@ -19,9 +24,11 @@ export type Unit = {
   title: string;
   theme?: string; // transdisciplinary theme
   centralIdea?: string;
+  linesOfInquiry?: string[];
   concepts?: string[];
   dates?: string;
   summative?: string;
+  companies?: string; // how the class is organised for the project
   status: "in progress" | "complete";
   summary?: string; // index-card line; falls back to the central idea
   coverImage: string;
@@ -48,9 +55,16 @@ export const units: Unit[] = [
     theme: "How We Organize Ourselves",
     centralIdea:
       "Trade connects people and resources, and these connections can affect communities in expected and unexpected ways.",
+    // LOIs 1–2 as printed on the classroom wall sheet; LOI 3 as John gave it.
+    linesOfInquiry: [
+      "How trade connects people, resources, and communities",
+      "How goods move through systems from producer to consumer",
+      "How trade systems can have expected and unexpected consequences",
+    ],
     concepts: ["Function", "Connection", "Causation", "Responsibility"],
-    dates: "1 Sep – 16 Oct 2026",
-    summative: "The Trade Stories Market",
+    dates: "1 Sep – 14 Oct 2026",
+    summative: "The Trade Stories Market, Tue 13 Oct",
+    companies: "6 companies, 4 kids each. Jobs: Researcher, CEO, Accountant, Designer",
     status: "in progress",
     coverImage: "/images/unit1-wk2-wall-front.jpg",
     arc: tradeSystems.arc,

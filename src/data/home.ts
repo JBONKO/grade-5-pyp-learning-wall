@@ -88,6 +88,11 @@ export const home = {
         "A leadership project on clarifying the mentor role during Exhibition — so adults coach inquiry instead of managing it.",
       href: "/mentor-buy-in",
     },
+    {
+      title: "Units",
+      blurb: "A learning wall for each 2026–27 Unit of Inquiry, written up week by week.",
+      href: "/units",
+    },
   ],
 
   closingLine: "The wall changed as the students changed their thinking.",

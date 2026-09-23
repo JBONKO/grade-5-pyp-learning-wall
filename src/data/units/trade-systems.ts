@@ -12,15 +12,17 @@
 
 import type { Week } from "@/data/journey";
 
-// The six-week arc from the unit plan. Weeks with no entry in `weeks` show on
-// the unit timeline as "coming up".
+// The unit's seven school weeks, following the Trade Stories Market tracker
+// (Mid-Autumn holiday Fri 25 Sep, National Day break 1–7 Oct, Market Day
+// Tue 13 Oct). Weeks with no entry in `weeks` show on the timeline as coming up.
 export const arc = [
   { id: "week-1", label: "Week 1", title: "Tuning In" },
   { id: "week-2", label: "Week 2", title: "Finding Out" },
   { id: "week-3", label: "Week 3", title: "Your Trading Company" },
-  { id: "week-4", label: "Week 4", title: "Production & Pricing" },
-  { id: "week-5", label: "Week 5", title: "Market & Reflection" },
-  { id: "week-6", label: "Week 6", title: "Action & Celebration" },
+  { id: "week-4", label: "Week 4", title: "Business Plans & Posters" },
+  { id: "week-5", label: "Week 5", title: "Making & Pricing" },
+  { id: "week-6", label: "Week 6", title: "Signs & Pitches" },
+  { id: "week-7", label: "Week 7", title: "Market Day", note: "Tue 13 Oct" },
 ];
 
 export const weeks: Week[] = [
@@ -31,13 +33,14 @@ export const weeks: Week[] = [
     timelineBlurb: "",
     whatStudentsWorkedOn: "",
     mainTeachingPoint: "",
-    artifactName: "The supply-chain spine",
+    artifactName: "The wall before Day 1",
     image: "/images/unit1-wk1-wall-setup.jpg",
     whyArtifactMattered: "",
     photoSlots: [],
     gallery: [
       { src: "/images/unit1-wk1-classroom-setup-1.jpg", caption: "The classroom during set-up, before the first day." },
       { src: "/images/unit1-wk1-classroom-setup-2.jpg", caption: "The other end of the room. The five supply-chain stages were already pinned along the back wall, with a world map beside them." },
+      { src: "/images/unit1-wk1-noodle-card.jpg", caption: "A Mystery Breakfast card from Day 1: Shanghai scallion noodles. One kid traced them half to Brazil, because of the soybeans." },
       { src: "/images/unit1-wk1-english-board.jpg", caption: "The English evidence wall on Day 1. One question at the top, “Can you prove it?”, and the paragraph frames for proving it underneath." },
     ],
   },
@@ -48,12 +51,12 @@ export const weeks: Week[] = [
     timelineBlurb: "",
     whatStudentsWorkedOn: "",
     mainTeachingPoint: "",
-    artifactName: "Supply-chain hubs",
+    artifactName: "The five trade posters",
     image: "/images/unit1-wk2-wall-front.jpg",
     whyArtifactMattered: "",
     photoSlots: [],
     gallery: [
-      { src: "/images/unit1-wk2-wonder-prompt.jpg", caption: "One of the hub prompts: “A wonder / a question.” Kids answer on a sticky note and say which thinking move they used." },
+      { src: "/images/unit1-wk2-wonder-prompt.jpg", caption: "A P4C prompt on one of the five trade posters: “A wonder / a question.” Kids answer on a sticky note and name the thinking move they used." },
       { src: "/images/unit1-wk2-english-board.jpg", caption: "The English evidence wall after a class discussion. A character iceberg in sticky notes: what the characters say and do above the waterline, what they feel underneath." },
     ],
   },
@@ -64,7 +67,7 @@ export const weeks: Week[] = [
     timelineBlurb: "",
     whatStudentsWorkedOn: "",
     mainTeachingPoint: "",
-    artifactName: "Company poster stations",
+    artifactName: "One wall section per company",
     image: "/images/unit1-wk3-poster-station.jpg",
     whyArtifactMattered: "",
     photoSlots: [],
@@ -72,7 +75,7 @@ export const weeks: Week[] = [
   {
     id: "week-4",
     weekLabel: "Week 4 · 21–24 Sep",
-    title: "Production & Pricing",
+    title: "Business Plans & Posters",
     timelineBlurb: "",
     whatStudentsWorkedOn: "",
     mainTeachingPoint: "",

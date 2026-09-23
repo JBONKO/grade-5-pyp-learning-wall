@@ -111,10 +111,10 @@ tailwind.config.ts      # the colour palette + fonts
 3. Pick the repo. Vercel detects Next.js automatically — just click **Deploy**.
    No settings to change.
 4. You get a live URL. Every time you push to GitHub, the site redeploys.
-5. **Custom domain** (e.g. `workingwalljohnbonko.com`): buy it from any registrar
-   or from Vercel (**Settings → Domains**), add it to the project, and follow the
-   DNS steps. `metadataBase` in `src/app/layout.tsx` is already set to this domain —
-   change it there if you pick a different one.
+5. **Custom domain:** the live site is <https://johnbonko.com> (connected under
+   **Settings → Domains**; `www.johnbonko.com` redirects to it). `metadataBase` in
+   `src/app/layout.tsx` is set to this domain — change it there if the domain
+   ever changes.
 
 Prefer the terminal? Install the CLI with `npm i -g vercel`, then run `vercel`
 from this folder and follow the prompts.

@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://workingwalljohnbonko.com"),
+  metadataBase: new URL("https://johnbonko.com"),
   title: {
     default: site.title,
     template: `%s · ${site.title}`,

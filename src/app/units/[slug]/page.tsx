@@ -5,7 +5,7 @@ import { Section } from "@/components/Section";
 import { Field } from "@/components/Field";
 import { Timeline } from "@/components/Timeline";
 import { WeekSection } from "@/components/WeekSection";
-import { getUnit, unitPages, unitStatus } from "@/data/units";
+import { getUnit, unitPages, unitStatus, type ArcStep } from "@/data/units";
 
 // Only the units listed in src/data/units.ts exist; anything else is a 404.
 export const dynamicParams = false;
@@ -26,7 +26,8 @@ export default function UnitPage({ params }: { params: { slug: string } }) {
 
   const weeks = unit.weeks ?? [];
   const documented = new Set(weeks.map((w) => w.id));
-  const steps = unit.arc ?? weeks.map((w) => ({ id: w.id, label: w.weekLabel, title: w.title }));
+  const steps: ArcStep[] =
+    unit.arc ?? weeks.map((w) => ({ id: w.id, label: w.weekLabel, title: w.title }));
   // Weeks already written up link down the page; the rest show as coming up.
   const timelineItems = steps.map((step) => {
     const done = documented.has(step.id);
@@ -34,7 +35,7 @@ export default function UnitPage({ params }: { params: { slug: string } }) {
       label: step.label,
       title: step.title,
       href: done ? `#${step.id}` : undefined,
-      blurb: done ? undefined : "Coming up",
+      blurb: done ? undefined : step.note ?? "Coming up",
       upcoming: !done,
     };
   });
@@ -54,13 +55,35 @@ export default function UnitPage({ params }: { params: { slug: string } }) {
               <p className="mt-3 font-serif text-2xl leading-snug text-ink sm:text-3xl">
                 {unit.centralIdea}
               </p>
+
+              {unit.linesOfInquiry ? (
+                <div className="mt-8">
+                  <p className="text-xs font-bold uppercase tracking-[0.18em] text-clay">
+                    Lines of inquiry
+                  </p>
+                  <ol className="mt-3 space-y-2.5">
+                    {unit.linesOfInquiry.map((line, i) => (
+                      <li key={line} className="flex gap-3 text-[17px] leading-snug text-ink/90">
+                        <span
+                          aria-hidden="true"
+                          className="mt-px flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-paper text-xs font-bold text-teal"
+                        >
+                          {i + 1}
+                        </span>
+                        <span>{line}</span>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              ) : null}
             </div>
           ) : null}
           <dl className="grid content-start gap-6 sm:grid-cols-2">
             {unit.theme ? <Field label="Transdisciplinary theme">{unit.theme}</Field> : null}
-            {unit.concepts ? <Field label="Key concepts">{unit.concepts.join(" · ")}</Field> : null}
+            {unit.concepts ? <Field label="Specified concepts">{unit.concepts.join(" · ")}</Field> : null}
             {unit.dates ? <Field label="Dates">{unit.dates}</Field> : null}
             {unit.summative ? <Field label="Summative">{unit.summative}</Field> : null}
+            {unit.companies ? <Field label="Trading companies">{unit.companies}</Field> : null}
             <Field label="Status">{unitStatus(unit)}</Field>
           </dl>
         </div>
