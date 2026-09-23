@@ -38,19 +38,25 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
               </div>
             </div>
 
-            <p className="mt-5 text-[17px] leading-relaxed text-ink/90">
-              {week.whatStudentsWorkedOn}
-            </p>
+            {/* Text fields left empty (a unit week still waiting on its write-up)
+                are skipped, so a week can go live with just its photos. */}
+            {week.whatStudentsWorkedOn ? (
+              <p className="mt-5 text-[17px] leading-relaxed text-ink/90">
+                {week.whatStudentsWorkedOn}
+              </p>
+            ) : null}
 
             {/* Main teaching point */}
-            <div className="mt-6 border-l-2 border-teal bg-teal/[0.05] p-4 pl-5">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-teal">
-                Main teaching point
-              </p>
-              <p className="mt-1 font-serif text-lg leading-snug text-teal-dark">
-                {week.mainTeachingPoint}
-              </p>
-            </div>
+            {week.mainTeachingPoint ? (
+              <div className="mt-6 border-l-2 border-teal bg-teal/[0.05] p-4 pl-5">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-teal">
+                  Main teaching point
+                </p>
+                <p className="mt-1 font-serif text-lg leading-snug text-teal-dark">
+                  {week.mainTeachingPoint}
+                </p>
+              </div>
+            ) : null}
 
             {/* Artifact + why it mattered */}
             <div className="mt-6">
@@ -58,9 +64,11 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
                 Learning wall artifact
               </p>
               <p className="mt-1 font-serif text-lg text-ink">{week.artifactName}</p>
-              <p className="mt-2 text-[15px] leading-relaxed text-muted">
-                {week.whyArtifactMattered}
-              </p>
+              {week.whyArtifactMattered ? (
+                <p className="mt-2 text-[15px] leading-relaxed text-muted">
+                  {week.whyArtifactMattered}
+                </p>
+              ) : null}
             </div>
 
             {/* What did not work / adjustment */}
@@ -89,7 +97,7 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
             </div>
 
             {/* No gallery yet: show the suggested-photo checklist instead */}
-            {gallery.length === 0 ? (
+            {gallery.length === 0 && week.photoSlots.length > 0 ? (
               <div className="mt-5 rounded-lg border border-line bg-paper p-5">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
                   Suggested photos

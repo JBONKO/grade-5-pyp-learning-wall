@@ -5,6 +5,16 @@ export type TimelineItem = {
   title: string;
   blurb?: string;
   href?: string; // optional deep link, e.g. /journey#week-3
+  upcoming?: boolean; // a week that hasn't happened yet (shown faded)
+};
+
+// One stepper column per item on large screens (the PYPx has 7).
+const columns: Record<number, string> = {
+  3: "lg:grid-cols-3",
+  4: "lg:grid-cols-4",
+  5: "lg:grid-cols-5",
+  6: "lg:grid-cols-6",
+  7: "lg:grid-cols-7",
 };
 
 /**
@@ -14,13 +24,20 @@ export type TimelineItem = {
  */
 export function Timeline({ items }: { items: TimelineItem[] }) {
   return (
-    <ol className="flex flex-col gap-7 lg:grid lg:grid-cols-7 lg:gap-4">
+    <ol
+      className={`flex flex-col gap-7 lg:grid ${
+        columns[items.length] ?? "lg:grid-cols-7"
+      } lg:gap-4`}
+    >
       {items.map((item, i) => {
         const last = i === items.length - 1;
         const titleClass =
           "mt-0.5 block font-serif text-lg leading-snug text-ink lg:text-base";
         return (
-          <li key={i} className="relative flex gap-4 lg:flex-col lg:gap-0">
+          <li
+            key={i}
+            className={`relative flex gap-4 lg:flex-col lg:gap-0${item.upcoming ? " opacity-50" : ""}`}
+          >
             {/* horizontal connector (large screens) */}
             {!last && (
               <span

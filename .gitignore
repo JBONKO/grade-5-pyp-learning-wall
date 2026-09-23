@@ -33,6 +33,7 @@ next-env.d.ts
 
 # raw photo drop zone (originals — not part of the deployed site)
 /photo-inbox/
+/Unit */
 
 # local editor / preview config (machine-specific paths)
 /.claude/
