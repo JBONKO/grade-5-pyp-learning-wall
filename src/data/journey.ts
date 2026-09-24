@@ -60,8 +60,8 @@ export const weeks: Week[] = [
       { src: "/images/journey-wk2-popmart-poster.jpg", caption: "The rational consumption group on what they were learning in Week 2: why people buy Pop Mart, how marketing pulls on emotions, and where the money goes." },
       { src: "/images/journey-wk2-transport-poster.jpg", caption: "The sustainable transport group's Week 2 poster, written as questions. What reduces pollution, what fuel transport does to the air, and whether electric energy really beats fuel." },
       { src: "/images/journey-wk2-healthy-eating-poster.jpg", caption: "The healthy eating group's early poster on childhood obesity. Their lines of inquiry, their research so far, and a food scale running from fries up to vegetables." },
-      { src: "/images/journey-wk1-unstuck-sorting.jpg", caption: "The sorting activity that became the Research Unstuck Wall. Kids wrote what stops them on a sticky, then sorted the stickies into six kinds of stuck, from not knowing where to start to tools and websites being confusing." },
-      { src: "/images/journey-wk1-journal-cover.jpg", caption: "A finished X Journal cover, painted with the five approaches to learning the kids leaned on all term: communication, research, thinking, social, and self-management." },
+      { src: "/images/journey-wk1-unstuck-sorting.jpg", caption: "The sorting activity that became the Research Unstuck Wall. Students wrote what stops them on a sticky, then sorted the stickies into six kinds of stuck, from not knowing where to start to tools and websites being confusing." },
+      { src: "/images/journey-wk1-journal-cover.jpg", caption: "A finished X Journal cover, painted with the five approaches to learning the students leaned on all term: communication, research, thinking, social, and self-management." },
     ],
   },
   {
@@ -251,7 +251,7 @@ export const weeks: Week[] = [
       "Some students came to Week 8 underprepared, without a clear role. That did not work. We pulled them for one-on-one support to find each of them a job — a part of the talk, a station task — so they could actually help their group at the exhibition.",
     gallery: [
       { src: "/images/journey-wk8-healthy-presenting.jpg", caption: "Exhibition day. The healthy eating group walks visitors through their station under the PYPx banner, central idea, action poster, and P4C question all in reach." },
-      { src: "/images/journey-wk8-drones-drama.jpg", caption: "The drones group performs their drama for a packed audience, the principal down in the front row with the kids." },
+      { src: "/images/journey-wk8-drones-drama.jpg", caption: "The drones group performs their drama for a packed audience, the principal down in the front row with the students." },
       { src: "/images/journey-wk8-transport-station.jpg", caption: "The sustainable transport station, built around a real bike, with the central idea and lines of inquiry behind it." },
       { src: "/images/journey-wk8-revolutions-station.jpg", caption: "The revolutions station: American and French Revolution boards, a central idea map, and a card game waiting on the table." },
       { src: "/images/journey-wk8-drones-station.jpg", caption: "The drones group's walk-through gallery, with a P4C question on AI safety, a built robot, and drone safety tips hung for visitors to read." },
@@ -284,8 +284,8 @@ export const journeyConclusion = {
   eyebrow: "After the exhibition",
   heading: "What the wall was for",
   paragraphs: [
-    "Eight weeks, one wall, 23 kids, 6 groups. The wall was never the point. The point was that the thinking stayed somewhere the kids could see it, argue with it, and move it. By the exhibition, a group's questions, evidence, and dead ends were not sitting in a folder. They were on a board the group carried into the hall and stood next to.",
-    "It did not run clean. The wall got crowded fast, and for a couple of weeks it was clutter instead of a system, until we built a routine to move and retire notes. Some kids treated it as decoration right up until the week they had to update it in front of their group. Early on, a few copied answers straight out of MagicSchool without reading them, so we added one rule: rewrite the finding in your own words first, or it does not count.",
+    "Eight weeks, one wall, 23 students, 6 groups. The wall was never the point. The point was that the thinking stayed somewhere the students could see it, argue with it, and move it. By the exhibition, a group's questions, evidence, and dead ends were not sitting in a folder. They were on a board the group carried into the hall and stood next to.",
+    "It did not run clean. The wall got crowded fast, and for a couple of weeks it was clutter instead of a system, until we built a routine to move and retire notes. Some students treated it as decoration right up until the week they had to update it in front of their group. Early on, a few copied answers straight out of MagicSchool without reading them, so we added one rule: rewrite the finding in your own words first, or it does not count.",
     "It was also heavy. Eight weeks of building routines, running pull-up-a-chair sessions, and teaching into the wall is more work than printing a checklist and handing it out. I cut other things to make room for it. My read is that it was worth the trade, but I am not going to pretend it was free.",
     "The part I keep going back to is week eight. The groups pulled their work off the wall and rebuilt it as a timeline for the presentation hall. They had been moving those pieces around the wall for two months. Nobody asked me which one came first.",
   ],

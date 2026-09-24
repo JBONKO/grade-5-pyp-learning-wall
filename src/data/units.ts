@@ -40,6 +40,10 @@ export type Unit = {
   weeks?: Week[];
 };
 
+// Intro line under the /units page title.
+export const unitsIntro =
+  "The PYP Exhibition wall came first. This year every Unit of Inquiry (UOI) gets its own wall, written up week by week while the unit runs.";
+
 export const units: Unit[] = [
   {
     slug: "pyp-exhibition",
@@ -69,8 +73,10 @@ export const units: Unit[] = [
     approachesToLearning: ["Thinking", "Communication", "Self-management", "Social"],
     dates: "1 Sep – 14 Oct 2026",
     summative: "The Trade Stories Market, Tue 13 Oct",
-    companies: "6 companies, 4 kids each. Jobs: Researcher, CEO, Accountant, Designer",
+    companies: "6 companies, 4 students each. Jobs: Researcher, CEO, Accountant, Designer",
     status: "in progress",
+    intro:
+      "Seven school weeks on trade, written up while the unit runs. The wall started as five trade posters for the whole class. In Week 3 the students voted to take it down and give each company its own section.",
     coverImage: "/images/unit1-wk2-wall-front.jpg",
     arc: tradeSystems.arc,
     weeks: tradeSystems.weeks,

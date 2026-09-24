@@ -38,6 +38,6 @@ export const reflections: Reflection[] = [
   {
     id: "wall-needs-action",
     title: "A poster that just hung there got ignored",
-    body: "The artifacts that worked were the ones students had to touch — move a sticky, fill a gap in the table, check off a fix, rewrite a line. When the wall asked for an action, the kids used it.",
+    body: "The artifacts that worked were the ones students had to touch — move a sticky, fill a gap in the table, check off a fix, rewrite a line. When the wall asked for an action, the students used it.",
   },
 ];

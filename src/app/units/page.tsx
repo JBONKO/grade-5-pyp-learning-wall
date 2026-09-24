@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { UnitCard } from "@/components/UnitCard";
-import { units, unitHref, unitStatus } from "@/data/units";
+import { units, unitHref, unitStatus, unitsIntro } from "@/data/units";
 
 export const metadata: Metadata = {
   title: "Units",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function UnitsPage() {
   return (
     <>
-      <PageHeader eyebrow="Units" title="Unit by unit" />
+      <PageHeader eyebrow="Units" title="Unit by unit" intro={unitsIntro} />
 
       <Section tone="cream">
         <div className="grid gap-6 sm:grid-cols-2">

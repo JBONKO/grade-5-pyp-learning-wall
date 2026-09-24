@@ -4,7 +4,7 @@
 // role, alignment, consistency, buy-in), not John's class wall. The wall and
 // journals appear only as evidence.
 // Voice: short declaratives, few dashes, no semicolons in lists, real numbers,
-// "kids" where it fits. Edit the strings freely.
+// "students" where it fits. Edit the strings freely.
 // ---------------------------------------------------------------------------
 
 export const mentor = {
@@ -58,7 +58,7 @@ export const mentor = {
     body: [
       "Mentor meetings were a core part of the Exhibition. With 35+ groups and 70+ mentors, they happened across many different schedules. The PYP Coordinator made that timetable work. What happened inside the meetings was the part that was harder to keep consistent.",
       "The mentors were committed and wanted students to succeed. The problem was not a lack of care. The problem was that the mentor role was not always clearly understood, or carried out the same way from one pair to the next.",
-      "Some mentors naturally coached through questions and reflection. Others slid into task-mode or product-mode. At times mentor advice pulled students away from the homeroom Exhibition process, or quietly took ownership away from the kids.",
+      "Some mentors naturally coached through questions and reflection. Others slid into task-mode or product-mode. At times mentor advice pulled students away from the homeroom Exhibition process, or quietly took ownership away from the students.",
     ],
   },
 
@@ -146,11 +146,11 @@ export const mentor = {
       },
       {
         name: "Prepare",
-        body: "I rebuilt the mentor materials and cut them down: a shorter handbook, a one-page guidance sheet, student-facing meeting expectations, meeting norms, a meeting record, and an overview deck. The thread through all of them was the same. Students lead, mentors ask questions. I also planned a lesson for Grade 5 teachers to run, so the kids knew what a mentor is and how a meeting works before the first one happened.",
+        body: "I rebuilt the mentor materials and cut them down: a shorter handbook, a one-page guidance sheet, student-facing meeting expectations, meeting norms, a meeting record, and an overview deck. The thread through all of them was the same. Students lead, mentors ask questions. I also planned a lesson for Grade 5 teachers to run, so the students knew what a mentor is and how a meeting works before the first one happened.",
       },
       {
         name: "Deliver",
-        body: "Mentors and students used the materials through the Exhibition, and the PYP Coordinator's scheduling got each pair in a room. The student-prep lesson did more than I expected. Kids walked in knowing how to lead, which made it easier for mentors to facilitate instead of take over. When support still drifted toward managing tasks, I went back to the mentors and made the role clear again.",
+        body: "Mentors and students used the materials through the Exhibition, and the PYP Coordinator's scheduling got each pair in a room. The student-prep lesson did more than I expected. Students walked in knowing how to lead, which made it easier for mentors to facilitate instead of take over. When support still drifted toward managing tasks, I went back to the mentors and made the role clear again.",
       },
       {
         name: "Sustain",
@@ -172,7 +172,7 @@ export const mentor = {
     heading: "What I learned as a leader",
     body: [
       "Buy-in is not the same as agreement or enthusiasm. Every mentor cared. The survey made that obvious, and it made the real problem obvious too. The role was unclear, and it felt like extra work. Buy-in went up when the work went down and the purpose got clear.",
-      "Transparency with the kids mattered more than I expected. Once students were taught what a mentor is and how a meeting runs, they led better, and the mentors had an easier job facilitating. Clear on both sides of the table beats clear on one.",
+      "Transparency with the students mattered more than I expected. Once students were taught what a mentor is and how a meeting runs, they led better, and the mentors had an easier job facilitating. Clear on both sides of the table beats clear on one.",
       "Student-led inquiry depends on the adults being aligned. The best support happened when adults wanted the same thing and used the same language. Implementation is not a one-off launch either. When meetings drifted toward managing tasks, I had to go back and make the role clear again. It needed watching, adjusting, and following up. The leadership part was clarifying roles without blaming anyone. Nobody was short on commitment. We were short on clarity.",
     ],
   },
@@ -201,12 +201,12 @@ export const mentor = {
     {
       src: "/images/mentor-meeting-expectations.png",
       alt: "Mentor meeting expectations for students: before, during, after, and group roles",
-      caption: "What students do before, during, and after the meeting, with roles that rotate each time. The kids run the meeting, so the kids get the checklist.",
+      caption: "What students do before, during, and after the meeting, with roles that rotate each time. The students run the meeting, so the students get the checklist.",
     },
     {
       src: "/images/mentor-student-lesson.png",
       alt: "Bilingual student lesson slide titled Before the Meeting, in English and Chinese",
-      caption: "A slide from the lesson the kids got first, in both languages. They learned how to prepare for a meeting before they ever sat in one.",
+      caption: "A slide from the lesson the students got first, in both languages. They learned how to prepare for a meeting before they ever sat in one.",
     },
     {
       src: "/images/mentor-meeting-record.jpg",
