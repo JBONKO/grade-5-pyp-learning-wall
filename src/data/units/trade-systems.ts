@@ -79,9 +79,14 @@ export const weeks: Week[] = [
     timelineBlurb: "",
     whatStudentsWorkedOn: "",
     mainTeachingPoint: "",
-    artifactName: "A hand-made tea bottle",
-    image: "/images/unit1-wk4-tea-bottle.jpg",
+    artifactName: "The taped poster layout",
+    image: "/images/unit1-wk4-taped-layout.jpg",
     whyArtifactMattered: "",
     photoSlots: [],
+    gallery: [
+      { src: "/images/unit1-wk4-taping-sections.jpg", caption: "Taping out a company's big poster, one rectangle per section, before any of the mini posters go up." },
+      { src: "/images/unit1-wk4-sign-test.jpg", caption: "The one-meter test: can the tea company's sign be read from a meter away?" },
+      { src: "/images/unit1-wk4-tea-bottle.jpg", caption: "The tea company drew its bottles on cardboard and cut them out on the classroom floor." },
+    ],
   },
 ];

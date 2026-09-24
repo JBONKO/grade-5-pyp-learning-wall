@@ -63,14 +63,22 @@ export default function UnitPage({ params }: { params: { slug: string } }) {
                   </p>
                   <ol className="mt-3 space-y-2.5">
                     {unit.linesOfInquiry.map((line, i) => (
-                      <li key={line} className="flex gap-3 text-[17px] leading-snug text-ink/90">
+                      <li key={line.text} className="flex gap-3 text-[17px] leading-snug text-ink/90">
                         <span
                           aria-hidden="true"
                           className="mt-px flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-paper text-xs font-bold text-teal"
                         >
                           {i + 1}
                         </span>
-                        <span>{line}</span>
+                        <span>
+                          {line.text}
+                          {line.concept ? (
+                            <span className="whitespace-nowrap text-sm font-semibold text-clay">
+                              {" "}
+                              ({line.concept})
+                            </span>
+                          ) : null}
+                        </span>
                       </li>
                     ))}
                   </ol>
@@ -81,6 +89,14 @@ export default function UnitPage({ params }: { params: { slug: string } }) {
           <dl className="grid content-start gap-6 sm:grid-cols-2">
             {unit.theme ? <Field label="Transdisciplinary theme">{unit.theme}</Field> : null}
             {unit.concepts ? <Field label="Specified concepts">{unit.concepts.join(" · ")}</Field> : null}
+            {unit.learnerProfile ? (
+              <Field label="Learner profile">{unit.learnerProfile.join(" · ")}</Field>
+            ) : null}
+            {unit.approachesToLearning ? (
+              <Field label="Approaches to learning">
+                {unit.approachesToLearning.join(" · ")} skills
+              </Field>
+            ) : null}
             {unit.dates ? <Field label="Dates">{unit.dates}</Field> : null}
             {unit.summative ? <Field label="Summative">{unit.summative}</Field> : null}
             {unit.companies ? <Field label="Trading companies">{unit.companies}</Field> : null}

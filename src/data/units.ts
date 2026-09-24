@@ -24,8 +24,10 @@ export type Unit = {
   title: string;
   theme?: string; // transdisciplinary theme
   centralIdea?: string;
-  linesOfInquiry?: string[];
-  concepts?: string[];
+  linesOfInquiry?: { text: string; concept?: string }[];
+  concepts?: string[]; // specified concepts
+  learnerProfile?: string[];
+  approachesToLearning?: string[];
   dates?: string;
   summative?: string;
   companies?: string; // how the class is organised for the project
@@ -55,13 +57,16 @@ export const units: Unit[] = [
     theme: "How We Organize Ourselves",
     centralIdea:
       "Trade connects people and resources, and these connections can affect communities in expected and unexpected ways.",
-    // LOIs 1–2 as printed on the classroom wall sheet; LOI 3 as John gave it.
+    // Central idea, lines of inquiry, concepts, learner profile and ATLs as
+    // they appear on the unit's "Central Idea & LOI" slides.
     linesOfInquiry: [
-      "How trade connects people, resources, and communities",
-      "How goods move through systems from producer to consumer",
-      "How trade systems can have expected and unexpected consequences",
+      { text: "How trade systems move goods from producers to consumers", concept: "Function" },
+      { text: "How trade connects people, places and resources", concept: "Connection" },
+      { text: "How trade decisions create expected and unexpected consequences", concept: "Causation" },
     ],
-    concepts: ["Function", "Connection", "Causation", "Responsibility"],
+    concepts: ["Function", "Connection", "Responsibility", "Causation"],
+    learnerProfile: ["Open-minded", "Communicators", "Inquirers"],
+    approachesToLearning: ["Thinking", "Communication", "Self-management", "Social"],
     dates: "1 Sep – 14 Oct 2026",
     summative: "The Trade Stories Market, Tue 13 Oct",
     companies: "6 companies, 4 kids each. Jobs: Researcher, CEO, Accountant, Designer",
