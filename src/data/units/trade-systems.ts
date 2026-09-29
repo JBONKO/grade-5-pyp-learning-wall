@@ -140,15 +140,18 @@ export const weeks: Week[] = [
       "The six companies are making their products by hand. Honey is shaping clay throat candies and planning the packaging. Porcelain is making cups, plates and bowls from clay and broken porcelain craft pieces, with packaging next. Basketball is shaping toy basketballs from clay. Bamboo is folding paper baskets. Silk is making ribbons from craft materials and using wooden boxes to make them look more luxurious. Tea is building cardboard tea bottles. Alongside the products, companies put mini posters above the taped spaces for their main posters. We pulled up a chair to the wall, looked at one example from each company, and gave stars and wishes. The class then made a checklist for a GREAT poster. Students are going back to their work to add colour, stronger lettering, frames, backgrounds and useful visuals.",
     mainTeachingPoint:
       "The first poster is a draft. Looking at six real examples gave us a reason to revise it.",
-    artifactName: "Our GREAT poster checklist",
-    image: "/images/unit1-wk5-poster-checklist.jpg",
+    artifactName: "Six mini posters, one class checklist",
+    image: "/images/unit1-wk5-six-posters.jpg",
     whyArtifactMattered:
       "The checklist came from the students' stars and wishes, not a finished teacher example. We named what readers need: clear titles, thick dark letters and visuals, without too much text. I plan to keep the strategies near the UOI wall so students can use them again for the science fair and PYPx.",
     photoSlots: [],
     whatDidNotWork:
       "Some students still make posters quickly, the way they have in previous years, and the difference between a finished poster and a first draft is not clear to everyone yet. Taping out the main poster sections was useful practice, but getting the system set up took time because it was new to them. The student-run company tracker has worked well; the next job is helping them apply the poster checklist without waiting for me to point out every change.",
     gallery: [
+      { src: "/images/unit1-wk5-poster-checklist.jpg", caption: "The class checklist after looking at the six examples: visuals, clear titles and thick dark letters, with too much text and missing colour or background named as things to improve." },
       { src: "/images/unit1-wk5-poster-examples.jpg", caption: "One mini poster being revised at the table. Students are adding a stronger heading, colour and a background after the class review." },
+      { src: "/images/unit1-wk5-redo-posters.jpg", caption: "The tea company's mini posters on the table as students rethink the layout and presentation." },
+      { src: "/images/unit1-wk5-students-at-wall.jpg", caption: "Students discuss where to place a vocabulary mini poster above the taped sections of their company's main poster." },
     ],
   },
 ];
