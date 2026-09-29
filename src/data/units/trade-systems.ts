@@ -22,7 +22,7 @@ export const arc = [
   { id: "week-2", label: "Week 2", title: "Finding Out" },
   { id: "week-3", label: "Week 3", title: "Your Trading Company" },
   { id: "week-4", label: "Week 4", title: "Business Plans & Posters" },
-  { id: "week-5", label: "Week 5", title: "Making & Pricing" },
+  { id: "week-5", label: "Week 5", title: "Making & Improving" },
   { id: "week-6", label: "Week 6", title: "Signs & Pitches" },
   { id: "week-7", label: "Week 7", title: "Market Day", note: "Tue 13 Oct" },
 ];
@@ -129,6 +129,26 @@ export const weeks: Week[] = [
       { src: "/images/unit1-wk4-group-design.jpg", caption: "Mini posters in progress. The blue card is the porcelain company's Origin section: how white clay is dug, cleaned and shaped by hand." },
       { src: "/images/unit1-wk4-porcelain.jpg", caption: "The porcelain company at work. One student shapes a white clay figure. Another sets blue-and-white pieces onto a plate." },
       { src: "/images/unit1-wk4-tea-bottle.jpg", caption: "The tea company drew its bottles on cardboard and cut them out on the classroom floor." },
+    ],
+  },
+  {
+    id: "week-5",
+    weekLabel: "Week 5 · 28–30 Sep, continuing after Golden Week",
+    title: "Making & Improving",
+    timelineBlurb: "",
+    whatStudentsWorkedOn:
+      "The six companies are making their products by hand. Honey is shaping clay throat candies and planning the packaging. Porcelain is making cups, plates and bowls from clay and broken porcelain craft pieces, with packaging next. Basketball is shaping toy basketballs from clay. Bamboo is folding paper baskets. Silk is making ribbons from craft materials and using wooden boxes to make them look more luxurious. Tea is building cardboard tea bottles. Alongside the products, companies put mini posters above the taped spaces for their main posters. We pulled up a chair to the wall, looked at one example from each company, and gave stars and wishes. The class then made a checklist for a GREAT poster. Students are going back to their work to add colour, stronger lettering, frames, backgrounds and useful visuals.",
+    mainTeachingPoint:
+      "The first poster is a draft. Looking at six real examples gave us a reason to revise it.",
+    artifactName: "Our GREAT poster checklist",
+    image: "/images/unit1-wk5-poster-checklist.jpg",
+    whyArtifactMattered:
+      "The checklist came from the students' stars and wishes, not a finished teacher example. We named what readers need: clear titles, thick dark letters and visuals, without too much text. I plan to keep the strategies near the UOI wall so students can use them again for the science fair and PYPx.",
+    photoSlots: [],
+    whatDidNotWork:
+      "Some students still make posters quickly, the way they have in previous years, and the difference between a finished poster and a first draft is not clear to everyone yet. Taping out the main poster sections was useful practice, but getting the system set up took time because it was new to them. The student-run company tracker has worked well; the next job is helping them apply the poster checklist without waiting for me to point out every change.",
+    gallery: [
+      { src: "/images/unit1-wk5-poster-examples.jpg", caption: "One mini poster being revised at the table. Students are adding a stronger heading, colour and a background after the class review." },
     ],
   },
 ];

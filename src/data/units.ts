@@ -94,7 +94,7 @@ export function unitHref(unit: Unit) {
   return unit.href ?? `/units/${unit.slug}`;
 }
 
-// "Complete" or "In progress · Week 4 of 6", from the weeks documented so far.
+// "Complete" or "In progress · Week 5 of 7", from the weeks documented so far.
 export function unitStatus(unit: Unit) {
   if (unit.status === "complete") return "Complete";
   const done = unit.weeks?.length ?? 0;
