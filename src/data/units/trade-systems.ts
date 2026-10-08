@@ -100,7 +100,7 @@ export const weeks: Week[] = [
       "Each company owns one strip of wall, top to bottom. The brown paper went up first. Everything the company makes lives there.",
     photoSlots: [],
     whatDidNotWork:
-      "I gave the class two designs for the new wall. Option 1 kept the five trade posters, took down the pencil and tea connections, and put three companies above and three below, with string running across companies. Option 2 took everything down and gave each company one vertical section. I wanted Option 1. The students voted for Option 2, so Option 2 went up.",
+      "Plans need room to change as students take ownership of their learning. I offered two layouts for the wall, with a preference for keeping the shared trade posters. The students chose a separate section for each company. I adapted the plan to support their decision, giving them more ownership of how they organised and used the wall.",
     gallery: [
       { src: "/images/unit1-wk3-tearing-down.jpg", caption: "After the class vote, taking down the Week 2 wall to make room for the company sections." },
       { src: "/images/unit1-wk3-poster-stations.jpg", caption: "Putting up the company sections, one strip of brown paper per company, under the thinking-move pennants." },

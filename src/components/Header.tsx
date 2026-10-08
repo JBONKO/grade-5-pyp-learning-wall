@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { nav, site } from "@/data/site";
+import { nav, pypNav, site } from "@/data/site";
 import { Container } from "./Container";
 
 function isActive(pathname: string, href: string) {
@@ -14,6 +14,7 @@ function isActive(pathname: string, href: string) {
 export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const inExhibition = pypNav.some((item) => isActive(pathname, item.href));
 
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/80">
@@ -39,13 +40,14 @@ export function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden items-center gap-1 lg:flex">
+          <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">
             {nav.map((item) => {
-              const active = isActive(pathname, item.href);
+              const active = item.href === "/pyp-exhibition" ? inExhibition : isActive(pathname, item.href);
               return (
                 <Link
                   key={item.href}
                   href={item.href}
+                  aria-current={active ? "page" : undefined}
                   className={`rounded-full px-3.5 py-2 text-sm transition ${
                     active
                       ? "bg-mustard/30 font-bold text-teal"
@@ -80,11 +82,11 @@ export function Header() {
 
       {/* Mobile nav panel */}
       {open ? (
-        <nav id="mobile-nav" className="border-t border-line bg-cream lg:hidden">
+        <nav aria-label="Main mobile" id="mobile-nav" className="border-t border-line bg-cream lg:hidden">
           <Container>
             <ul className="flex flex-col py-2">
               {nav.map((item) => {
-                const active = isActive(pathname, item.href);
+                const active = item.href === "/pyp-exhibition" ? inExhibition : isActive(pathname, item.href);
                 return (
                   <li key={item.href}>
                     <Link
@@ -104,6 +106,20 @@ export function Header() {
             </ul>
           </Container>
         </nav>
+      ) : null}
+      {inExhibition ? (
+        <div className="border-t border-line bg-cream">
+          <Container>
+            <nav aria-label="PYP Exhibition" className="flex flex-wrap gap-x-4 gap-y-2 py-3">
+              {pypNav.map((item) => (
+                <Link key={item.href} href={item.href} aria-current={isActive(pathname, item.href) ? "page" : undefined}
+                  className={`text-xs leading-relaxed transition hover:text-teal ${isActive(pathname, item.href) ? "font-bold text-teal underline underline-offset-4" : "text-muted"}`}>
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          </Container>
+        </div>
       ) : null}
     </header>
   );

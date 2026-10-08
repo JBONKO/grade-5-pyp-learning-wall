@@ -36,7 +36,7 @@ export function Footer() {
 
         <div className="flex flex-col gap-1 border-t border-line py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           {/* TODO: replace with your name / school once you're ready. */}
-          <span>Classroom documentation · Grade 5 PYP Exhibition</span>
+          <span>Classroom documentation · Grade 5 learning walls</span>
           <span>Built as an editable record of decisions.</span>
         </div>
       </Container>

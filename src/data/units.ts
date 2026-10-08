@@ -8,7 +8,6 @@
 // ---------------------------------------------------------------------------
 
 import type { Week } from "./journey";
-import { site } from "./site";
 import * as tradeSystems from "./units/trade-systems";
 
 export type ArcStep = {
@@ -50,9 +49,9 @@ export const units: Unit[] = [
     eyebrow: "2025–26 · Grade 5 · 8 weeks",
     title: "PYP Exhibition",
     status: "complete",
-    summary: site.description,
+    summary: "The first documented wall: eight weeks of inquiry, evidence, action and preparation for the PYP Exhibition.",
     coverImage: "/images/hero-learning-wall.jpg",
-    href: "/journey",
+    href: "/pyp-exhibition",
   },
   {
     slug: "trade-systems",
