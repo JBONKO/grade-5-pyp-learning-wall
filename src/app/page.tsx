@@ -8,7 +8,8 @@ import { home } from "@/data/home";
 import { units, unitHref, unitStatus } from "@/data/units";
 
 const orderedUnits = [...units].sort((a, b) => Number(b.status === "in progress") - Number(a.status === "in progress"));
-const currentUnit = orderedUnits.find((unit) => unit.status === "in progress");
+const currentUnit = orderedUnits.find((unit) => unit.status === "in progress")
+  ?? orderedUnits.find((unit) => (unit.weeks?.length ?? 0) > 0);
 const latestWeek = currentUnit?.weeks?.[currentUnit.weeks.length - 1];
 
 export default function HomePage() {

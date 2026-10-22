@@ -45,15 +45,6 @@ export const unitsIntro =
 
 export const units: Unit[] = [
   {
-    slug: "pyp-exhibition",
-    eyebrow: "2025–26 · Grade 5 · 8 weeks",
-    title: "PYP Exhibition",
-    status: "complete",
-    summary: "The first documented wall: eight weeks of inquiry, evidence, action and preparation for the PYP Exhibition.",
-    coverImage: "/images/hero-learning-wall.jpg",
-    href: "/pyp-exhibition",
-  },
-  {
     slug: "trade-systems",
     eyebrow: "Unit 1 · 2026–27 · Grade 5",
     title: "Trade Systems",
@@ -73,12 +64,21 @@ export const units: Unit[] = [
     dates: "1 Sep – 14 Oct 2026",
     summative: "The Trade Stories Market, Tue 13 Oct",
     companies: "6 companies, 4 students each. Jobs: Researcher, CEO, Accountant, Designer",
-    status: "in progress",
+    status: "complete",
     intro:
-      "Seven school weeks on trade, written up while the unit runs. The wall started as five trade posters for the whole class. In Week 3 the students voted to take it down and give each company its own section.",
+      "Seven school weeks on trade, from shared supply-chain posters to student-owned company boards, a class market and final exhibition presentations. The unit finished on 14 October 2026. The wall helped students organise their research, review their posters and explain how they responded to changes at the market.",
     coverImage: "/images/unit1-wk2-wall-front.jpg",
     arc: tradeSystems.arc,
     weeks: tradeSystems.weeks,
+  },
+  {
+    slug: "pyp-exhibition",
+    eyebrow: "2025–26 · Grade 5 · 8 weeks",
+    title: "PYP Exhibition",
+    status: "complete",
+    summary: "The first documented wall: eight weeks of inquiry, evidence, action and preparation for the PYP Exhibition.",
+    coverImage: "/images/hero-learning-wall.jpg",
+    href: "/pyp-exhibition",
   },
 ];
 

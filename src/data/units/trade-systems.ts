@@ -2,11 +2,12 @@
 // Unit 1 · Trade Systems (2026–27), week by week. Each entry renders as a
 // <WeekSection> on /units/trade-systems — the same shape as the PYPx Journey.
 //
-// The unit is still running. To add a week: copy one object, change `id`,
+// Unit completed 14 October 2026.
+// To add a week: copy one object, change `id`,
 // and point `image` / `gallery` at files in /public/images.
 //
 // Narrative fields (whatStudentsWorkedOn, mainTeachingPoint,
-// whyArtifactMattered, whatDidNotWork) are John's approved wording. A new
+// whyArtifactMattered, whatDidNotWork) follow John's classroom account. A new
 // week can go live with photos first: WeekSection skips empty fields, so leave
 // them "" until John approves the text. Week 2 has no whatDidNotWork on
 // purpose — it went well, so there is nothing to report.
@@ -23,8 +24,8 @@ export const arc = [
   { id: "week-3", label: "Week 3", title: "Your Trading Company" },
   { id: "week-4", label: "Week 4", title: "Business Plans & Posters" },
   { id: "week-5", label: "Week 5", title: "Making & Improving" },
-  { id: "week-6", label: "Week 6", title: "Signs & Pitches" },
-  { id: "week-7", label: "Week 7", title: "Market Day", note: "Tue 13 Oct" },
+  { id: "week-6", label: "Week 6", title: "Posters, Packaging & Presentation" },
+  { id: "week-7", label: "Week 7", title: "Market Day & Exhibition" },
 ];
 
 export const weeks: Week[] = [
@@ -152,6 +153,52 @@ export const weeks: Week[] = [
       { src: "/images/unit1-wk5-poster-examples.jpg", caption: "One mini poster being revised at the table. Students are adding a stronger heading, colour and a background after the class review." },
       { src: "/images/unit1-wk5-redo-posters.jpg", caption: "The tea company's mini posters on the table as students rethink the layout and presentation." },
       { src: "/images/unit1-wk5-students-at-wall.jpg", caption: "Students discuss where to place a vocabulary mini poster above the taped sections of their company's main poster." },
+    ],
+  },
+  {
+    id: "week-6",
+    weekLabel: "Week 6 · Final preparation",
+    title: "Posters, Packaging & Presentation",
+    timelineBlurb: "Organising the final exhibition posters and reviewing them at the wall.",
+    whatStudentsWorkedOn:
+      "Students used their sections of the learning wall to organise the final exhibition posters, bringing the smaller pieces of research together on their company boards. They then created the signs for their Market Day stalls. We pulled up a chair to the wall again to look at how well the posters were designed. Some students recognised that their letters needed to be bigger and bolder. The company boards, stall signs and packaging were all part of getting ready to share the work.",
+    mainTeachingPoint:
+      "Plan the poster for the reader: what needs to stand out, and what should they notice first?",
+    artifactName: "The company boards coming together",
+    image: "/images/unit1-wk6-poster-preparation.jpg",
+    whyArtifactMattered:
+      "The wall gave us a place to arrange the information and review it together before the final presentation. Students could look across the company boards and consider how clearly each poster communicated its message.",
+    photoSlots: [],
+    whatDidNotWork:
+      "The students do not yet fully understand how to plan a poster for maximum effect. Some recognised the need for bigger, bolder lettering, while other groups continued to rush. I will keep returning to layout, lettering and visual impact in the next units so these skills have time to develop before PYPx.",
+    gallery: [
+      { src: "/images/unit1-wk6-porcelain-preparation.jpg", caption: "The porcelain company assembling its board for the final presentation. Material, origin, factory and transport research sit alongside a question about why porcelain breaks." },
+      { src: "/images/unit1-wk6-silk-boxes.jpg", caption: "Silk Road's decorated wooden boxes, with handmade labels and price markings. Packaging was part of how the company presented its product." },
+    ],
+  },
+  {
+    id: "week-7",
+    weekLabel: "Week 7 · Unit completed 14 Oct",
+    title: "Market Day & Exhibition",
+    timelineBlurb: "Responding to market events, then adding those decisions to the final presentations.",
+    whatStudentsWorkedOn:
+      "We kept the first Market Day within our own class because this was a new unit. Each company received ¥200 in play money, set prices for its handmade products, and then had to respond to event cards I introduced. In one event, a celebrity visited the tea shop and demand rose sharply. The company had to decide how to change its prices. The events gave students an engaging way to experience intended and unintended consequences. After the market, companies updated their main posters with how they had handled the changes and used those updates in their final exhibition presentations. The unit finished on 14 October.",
+    mainTeachingPoint:
+      "Trade decisions have consequences. When demand changes, companies have to respond.",
+    artifactName: "Company posters: research, market decisions and reflection",
+    image: "/images/unit1-wk7-honey-market.jpg",
+    whyArtifactMattered:
+      "The students enjoyed Market Day, and having that shared experience made the final exhibition more successful. Their posters supported a presentation about decisions they had actually made. The wall had helped organise the research; the market gave students something concrete to add to that story.",
+    photoSlots: [],
+    whatDidNotWork:
+      "Keeping the market within the class made the first run manageable. Next year I hope to involve parents, other students and teachers from the wider school community. Poster design will remain a focus in the next units as we build towards PYPx.",
+    gallery: [
+      { src: "/images/unit1-wk7-porcelain-market.jpg", caption: "Porcelain Trading Company at Market Day, with blue-and-white handmade pieces, packaging and a large company banner." },
+      { src: "/images/unit1-wk7-basketball-market.jpg", caption: "Shadow Basketball Company's market table, with its company banner and products in handmade cardboard packaging." },
+      { src: "/images/unit1-wk7-bamboo-market.jpg", caption: "LAN Bamboo's table, with folded-paper products, price cards and a bamboo-themed company banner." },
+      { src: "/images/unit1-wk7-silk-market.jpg", caption: "Silk Road's market table, with its wooden boxes, a tabletop sign and the company banner." },
+      { src: "/images/unit1-wk7-tea-market.jpg", caption: "Yin & Yang Tea's table, with cardboard tea products and a promotional display advertising discounts or free items." },
+      { src: "/images/unit1-wk7-honey-products.jpg", caption: "A closer look at Honey Bee's model honey products, with handmade labels and a price card." },
     ],
   },
 ];
