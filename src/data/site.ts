@@ -17,7 +17,6 @@ export type NavItem = { label: string; href: string };
 export const pypNav: NavItem[] = [
   { label: "Overview", href: "/pyp-exhibition" },
   { label: "Why the Wall", href: "/why-the-wall" },
-  { label: "Research", href: "/research" },
   { label: "Journey", href: "/journey" },
   { label: "Artifacts", href: "/artifacts" },
   { label: "Group Actions", href: "/group-actions" },
@@ -34,6 +33,7 @@ export const coreIdea =
 export const nav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Units", href: "/units" },
+  { label: "Research", href: "/research" },
   { label: "PYP Exhibition", href: "/pyp-exhibition" },
   { label: "About", href: "/about" },
 ];
