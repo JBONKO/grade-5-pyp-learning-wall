@@ -9,6 +9,7 @@
 
 import type { Week } from "./journey";
 import * as tradeSystems from "./units/trade-systems";
+import * as matterMaterials from "./units/matter-materials";
 
 export type ArcStep = {
   id: string;
@@ -44,6 +45,29 @@ export const unitsIntro =
   "The PYP Exhibition wall came first. This year every Unit of Inquiry (UOI) gets its own wall, written up week by week while the unit runs.";
 
 export const units: Unit[] = [
+  {
+    slug: "matter-materials",
+    eyebrow: "Unit 2 · 2026–27 · Grade 5",
+    title: "Matter & Materials",
+    theme: "How the World Works",
+    centralIdea: "Scientific inquiry helps us understand the physical world.",
+    linesOfInquiry: [
+      { text: "Attributes of matter and materials" },
+      { text: "Properties of materials and their uses" },
+      { text: "How scientific inquiry is conducted and recorded" },
+    ],
+    concepts: ["Form", "Causation", "Function"],
+    dates: "19 Oct – 27 Nov 2026",
+    summative: "Design Fair · planned for 25–27 Nov",
+    status: "in progress",
+    summary:
+      "Questions, material samples and scientific reports: follow the wall from our first observations towards the Design Fair. Documented through Week 2.",
+    intro:
+      "Our second unit follows matter, materials and scientific inquiry. The Wonder Wall holds students' questions, the Material Library brings real samples into the discussion, and the Procedure Clothesline connects investigations with scientific writing. Weeks 1–2 are documented below. The six-week plan leads towards a Design Fair, with later weeks shown as planned. We will return to early blueprints and questions to make changes in students' thinking visible, while continuing the poster-design work begun in Trade Systems.",
+    coverImage: "/images/unit2-wk1-wonder-wall.jpg",
+    arc: matterMaterials.arc,
+    weeks: matterMaterials.weeks,
+  },
   {
     slug: "trade-systems",
     eyebrow: "Unit 1 · 2026–27 · Grade 5",
