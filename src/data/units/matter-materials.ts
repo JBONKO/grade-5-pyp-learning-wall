@@ -1,6 +1,6 @@
 // Unit 2 · How the World Works (2026–27).
-// Weeks 1–2 follow the dated photo folders and the work visible in them.
-// Later weeks describe the intended route from the unit plans, not outcomes.
+// Weeks 1–4 follow JB's photo folders and classroom handover of 11 Nov 2026.
+// Week 4 is a partial record through 11 Nov. Weeks 5–6 remain planned.
 import type { Week } from "@/data/journey";
 import type { ArcStep } from "@/data/units";
 
@@ -10,26 +10,24 @@ export const arc: ArcStep[] = [
   {
     id: "week-3",
     label: "Week 3",
-    title: "Sorting Out",
-    note: "Planned · 2–6 Nov: fair tests, variables and the steps of a scientific report.",
+    title: "Product Questions & Draft Aims",
   },
   {
     id: "week-4",
     label: "Week 4",
-    title: "Going Further",
-    note: "Planned · 9–13 Nov: turn a class question into an investigation, then add results and a conclusion to the wall.",
+    title: "Reviewing Plans at the Wall",
   },
   {
     id: "week-5",
     label: "Week 5",
     title: "Taking Action",
-    note: "Planned · 16–20 Nov: independent experiment plans, open lab, display-board design and rehearsal.",
+    note: "Planned · 16–20 Nov: classroom comparisons, evidence discussions and prototype building in the Maker Space on 18 Nov.",
   },
   {
     id: "week-6",
     label: "Week 6",
     title: "Design Fair & Reflection",
-    note: "Planned · 23–27 Nov: reopen the first blueprints, share investigations at the Design Fair and revisit our questions.",
+    note: "Planned · 23–27 Nov: retest redesigned features, prepare explanations and share evidence at the Design Fair on 25 Nov.",
   },
 ];
 
@@ -117,6 +115,82 @@ export const weeks: Week[] = [
       {
         src: "/images/unit2-wk2-procedure-clothesline.jpg",
         caption: "The full clothesline leaves space for each stage of an investigation, ending with results and a conclusion. Thinking-move pennants run above it.",
+      },
+    ],
+  },
+  {
+    id: "week-3",
+    weekLabel: "Week 3 · 2–6 Nov",
+    title: "Product Questions & Draft Aims",
+    timelineBlurb: "Connecting each product's job to material properties, then drafting an investigation aim.",
+    whatStudentsWorkedOn:
+      "The six product groups began connecting what their product needs to do with its materials and properties. The iPad stand group's first web named stiffness, stability and friction. The chopstick group linked grip to picking up wet or slippery food. Groups added their Title and Aim drafts to the Procedure Clothesline and returned to the shared oobleck example when reviewing one another's wording. The wall kept the class example and the new group drafts together, where students could point to the work and discuss it.",
+    mainTeachingPoint:
+      "An aim needs to tell another group what you intend to find out.",
+    artifactName: "Using the class example to review group aims",
+    image: "/images/unit2-wk3-class-example-feedback.jpg",
+    whyArtifactMattered:
+      "The oobleck investigation became a reference for the groups' own planning. Students could compare its aim with the new drafts and give feedback using an example they had worked with. The product notes beside the procedure gave each investigation a purpose: a job the product needs to do and a property worth looking into.",
+    photoSlots: [],
+    gallery: [
+      {
+        src: "/images/unit2-wk3-adding-aim.jpg",
+        caption: "Adding a group's Title and Aim card to the wall. The drafts stay visible beside the shared class investigation.",
+      },
+      {
+        src: "/images/unit2-wk3-writing-aim.jpg",
+        caption: "Reading the early group aims together. The oobleck example and a Title & Aim reminder sit underneath the new work.",
+      },
+      {
+        src: "/images/unit2-wk3-ipad-concept-web.jpg",
+        caption: "The iPad stand group's first notes connect the product's job with stiffness, stability and friction. Its planned comparison now focuses on support shape while keeping the card material and area the same.",
+      },
+      {
+        src: "/images/unit2-wk3-product-connections.jpg",
+        caption: "The chopstick group's product photo is linked to its job, observations and a question about materials and grip.",
+      },
+    ],
+  },
+  {
+    id: "week-4",
+    weekLabel: "Week 4 · 9–13 Nov · In progress, updated 11 Nov",
+    title: "Reviewing Plans at the Wall",
+    timelineBlurb: "Draft aims, hypotheses and feedback sit alongside growing product research and vocabulary.",
+    whatStudentsWorkedOn:
+      "By 11 November, groups had added their product's job, observations, questions and two facts about materials and properties to their concept webs. The research/sources and brainstorm sections of the wall packet were completed. Their six inquiries are chopstick grips, gaming mouse mats, marble track games, adjustable iPad stands, bike basket rain covers and tea strainers. Draft aims and hypotheses are now displayed with sticky-note feedback. We pulled up a chair to the wall again to read and discuss the plans. The word wall has grown too, with scientific-procedure vocabulary and students' own examples beneath the clothesline. The next stage is to agree the comparisons and test settings, then collect evidence for design decisions.",
+    mainTeachingPoint:
+      "A useful test plan names what we change, what we measure and what we keep the same.",
+    artifactName: "Six groups' draft aims, hypotheses and feedback",
+    image: "/images/unit2-wk4-aim-hypothesis-feedback.jpg",
+    whyArtifactMattered:
+      "Putting the drafts side by side made the wording available for discussion. One feedback note asks for the variable being changed to be clearer in an aim. These are working plans and predictions; they still need checking against the comparisons each group will carry out. Feedback stays beside the draft for the next revision.",
+    photoSlots: [],
+    whatDidNotWork:
+      "Many students found it hard to picture what their experiments would look like. The earlier reading and instructions were too difficult and text-heavy. I kept the printed workbooks and wall packets, then prepared experiment-specific guides with labelled setups, shorter directions and clearer measurements. We also brought the chosen product inquiries forward from the original sequence. The next job is to check each group's changed feature and measurement before the first tests.",
+    gallery: [
+      {
+        src: "/images/unit2-wk4-pull-up-chair.jpg",
+        caption: "Pulling up a chair to the wall to read the group plans, with the shared investigation still available as a reference.",
+      },
+      {
+        src: "/images/unit2-wk4-wall-discussion.jpg",
+        caption: "Pointing to a draft aim while discussing its wording. The wall gives the group a shared piece of work to refer to.",
+      },
+      {
+        src: "/images/unit2-wk4-product-notes.jpg",
+        caption: "Adding possible materials, the product's job and a test question around the tea-strainer photograph.",
+      },
+      {
+        src: "/images/unit2-wk4-expanded-word-wall.jpg",
+        caption: "More room for the growing word wall. Vocabulary cards sit beside students' own definitions, sentences and drawings.",
+      },
+      {
+        src: "/images/unit2-wk4-variables-vocabulary.jpg",
+        caption: "Students' explanations and diagrams beside variable, dependent variable and independent variable. Their wording gives us something concrete to check and revisit.",
+      },
+      {
+        src: "/images/unit2-wk4-procedure-vocabulary.jpg",
+        caption: "Scientific-procedure vocabulary beneath the clothesline. The shared oobleck method, diagram and results table remain above it; the new product groups are still planning their own tests.",
       },
     ],
   },

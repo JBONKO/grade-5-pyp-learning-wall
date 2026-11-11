@@ -50,20 +50,22 @@ export const units: Unit[] = [
     eyebrow: "Unit 2 · 2026–27 · Grade 5",
     title: "Matter & Materials",
     theme: "How the World Works",
-    centralIdea: "Scientific inquiry helps us understand the physical world.",
+    // Current focus from JB's 11 Nov handover. Early wall photos retain the
+    // original scientific-inquiry framing as part of the unit's history.
+    centralIdea: "Scientific design helps understand and shape the physical world.",
     linesOfInquiry: [
       { text: "Attributes of matter and materials" },
       { text: "Properties of materials and their uses" },
       { text: "How scientific inquiry is conducted and recorded" },
     ],
-    concepts: ["Form", "Causation", "Function"],
+    concepts: ["Form", "Function", "Connection"],
     dates: "19 Oct – 27 Nov 2026",
-    summative: "Design Fair · planned for 25–27 Nov",
+    summative: "Design Fair · 25 Nov 2026",
     status: "in progress",
     summary:
-      "Questions, material samples and scientific reports: follow the wall from our first observations towards the Design Fair. Documented through Week 2.",
+      "From material observations to six product inquiries: concept webs, draft aims and hypotheses grow on the wall. Updated through 11 November, during Week 4.",
     intro:
-      "Our second unit follows matter, materials and scientific inquiry. The Wonder Wall holds students' questions, the Material Library brings real samples into the discussion, and the Procedure Clothesline connects investigations with scientific writing. Weeks 1–2 are documented below. The six-week plan leads towards a Design Fair, with later weeks shown as planned. We will return to early blueprints and questions to make changes in students' thinking visible, while continuing the poster-design work begun in Trade Systems.",
+      "Our second unit began with matter, materials and scientific inquiry and has moved towards using that knowledge in product design. The wall now holds six group inquiries alongside the shared oobleck example, with concept webs, research, draft aims and hypotheses available for review. This record runs through 11 November, partway through Week 4. The teaching sequence has changed to give the chosen products more time; the remaining tests, prototype building and Design Fair on 25 November are still ahead.",
     coverImage: "/images/unit2-wk1-wonder-wall.jpg",
     arc: matterMaterials.arc,
     weeks: matterMaterials.weeks,
