@@ -71,17 +71,6 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
               ) : null}
             </div>
 
-            {/* What did not work / adjustment */}
-            {week.whatDidNotWork ? (
-              <div className="mt-6 rounded-lg border border-clay/25 bg-clay/[0.06] p-4">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
-                  What didn&rsquo;t work / adjustment
-                </p>
-                <p className="mt-1 text-[15px] leading-relaxed text-ink/90">
-                  {week.whatDidNotWork}
-                </p>
-              </div>
-            ) : null}
           </div>
 
           {/* Media column — the week's main artifact */}
@@ -95,6 +84,18 @@ export function WeekSection({ week, index }: { week: Week; index: number }) {
                 caption={`Main artifact: ${week.artifactName}`}
               />
             </div>
+
+            {/* Keep the adjustment with the artifact to balance both columns. */}
+            {week.whatDidNotWork ? (
+              <div className="mt-6 rounded-lg border border-clay/25 bg-clay/[0.06] p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-clay">
+                  What didn&rsquo;t work / adjustment
+                </p>
+                <p className="mt-1 text-[15px] leading-relaxed text-ink/90">
+                  {week.whatDidNotWork}
+                </p>
+              </div>
+            ) : null}
 
             {/* No gallery yet: show the suggested-photo checklist instead */}
             {gallery.length === 0 && week.photoSlots.length > 0 ? (
