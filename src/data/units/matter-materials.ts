@@ -298,6 +298,14 @@ export const weeks: Week[] = [
         caption: "The bike basket rain cover display connects water resistance with the product's job. Its design photographs sit beside the investigation and results.",
       },
       {
+        src: "/images/unit2-wk6-basket-cover-fit-test.jpg",
+        caption: "Photographs of the bicycle basket before and with the group's cover prototype fitted over it. A full-size bicycle gave the group a way to check the fit.",
+      },
+      {
+        src: "/images/unit2-wk6-basket-cover-fit-reflection.jpg",
+        caption: "The group's display records why they tried the prototype on a bicycle outside school: to see whether their design fitted the basket.",
+      },
+      {
         src: "/images/unit2-wk6-marble-track-display.jpg",
         caption: "The marble track model sits in front of its display, giving the group a product to point to while explaining its design.",
       },
