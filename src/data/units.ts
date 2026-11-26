@@ -61,11 +61,11 @@ export const units: Unit[] = [
     concepts: ["Form", "Function", "Connection"],
     dates: "19 Oct – 27 Nov 2026",
     summative: "Design Fair · 25 Nov 2026",
-    status: "in progress",
+    status: "complete",
     summary:
-      "From material observations to six product inquiries: concept webs, draft aims and hypotheses grow on the wall. Updated through 11 November, during Week 4.",
+      "Six weeks from material observations to product tests, redesign prototypes and the Design Fair. The walls hold the questions, plans and evidence along the way.",
     intro:
-      "Our second unit began with matter, materials and scientific inquiry and has moved towards using that knowledge in product design. The wall now holds six group inquiries alongside the shared oobleck example, with concept webs, research, draft aims and hypotheses available for review. This record runs through 11 November, partway through Week 4. The teaching sequence has changed to give the chosen products more time; the remaining tests, prototype building and Design Fair on 25 November are still ahead.",
+      "Six weeks of matter, materials and product design, documented through the Design Fair on 25 November. Six groups investigated products, tested material properties and used evidence to inform redesigns. The learning walls kept concept webs and scientific-process sections available as the work developed. This record follows the questions, testing, first Makerspace visit and preparation for explaining design choices to an audience, including the teaching adjustments along the way.",
     coverImage: "/images/unit2-wk1-wonder-wall.jpg",
     arc: matterMaterials.arc,
     weeks: matterMaterials.weeks,
